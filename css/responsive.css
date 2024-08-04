@@ -1,0 +1,1545 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    #home-slider .caption {
+        top: 150px;
+    }
+    #home-slider .caption h1 {
+        font-size: 48px;
+        line-height: 65px;
+        margin: 0 0 20px;
+    }
+    #home-slider .caption a {
+        line-height: 40px;
+        padding: 0 20px;
+        margin-right: 20px;
+    }
+    .tweets-banner .tbanner {
+        width: 33%;
+    }
+    .home-two .slider-tabs {
+        padding: 50px 0;
+    }
+    .inner-banner-header {
+        padding: 60px 0 0;
+        min-height: 200px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .wrapper h1 {
+        font-size: 32px;
+    }
+    .wrapper h2 {
+        font-size: 28px;
+    }
+    .wrapper h3 {
+        font-size: 24px;
+    }
+    .wrapper h4 {
+        font-size: 20px;
+    }
+    .wrapper h5 {
+        font-size: 18px;
+    }
+    .wrapper h6 {
+        font-size: 16px;
+    }
+    .logo-navbar .nav-item a {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    #home-slider .caption {
+        top: 50px;
+    }
+    #home-slider .caption h1 {
+        font-size: 36px;
+        line-height: 45px;
+        margin: 0 0 20px;
+    }
+    #home-slider .caption a {
+        line-height: 40px;
+        padding: 0 20px;
+        margin-right: 20px;
+    }
+    .match-teams-vs {
+        padding: 20px;
+    }
+    .match-teams-vs li.team-logo img {
+        width: 45px;
+        height: auto;
+    }
+    .match-teams-vs li.team-logo strong {
+        font-size: 18px;
+    }
+    .next-match-fixtures .nmf-loc li {
+        padding: 0 5px;
+    }
+    .next-match-fixtures .match-teams-vs li.team-logo strong {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .footer-links li a,
+    .copyr,
+    .quick-links a,
+    .next-match-fixtures .mvs p {
+        font-size: 12px;
+    }
+    .point-table-widget table tbody tr td {
+        padding: 4px;
+        font-size: 12px;
+    }
+    .news-box .news-caption {
+        padding: 10px;
+    }
+    .player-thumb img {
+        width: 100%;
+        height: auto;
+    }
+    .tweets-banner .tbanner {
+        width: 33%;
+        padding: 100px 30px 0;
+    }
+    .home-two .slider-tabs {
+        padding: 10px 0;
+    }
+    .home-two .slider-tabs li {
+        padding: 10px;
+    }
+    .home-two #home-slider .caption h1 {
+        font-size: 45px;
+        line-height: 65px;
+    }
+    .last-match .match-info {
+        width: 38%;
+    }
+    .full-row,
+    .h2-team-squad {
+        width: 100%;
+        margin: 0px;
+    }
+    .last-match-widget {
+        padding: 20px 10px 0;
+    }
+    .last-match-widget .match-teams-vs li.team-logo {
+        width: 50px;
+    }
+    .last-match-widget .match-teams-vs li.mvs {
+        width: 88px;
+    }
+    .image-gallery .classic-gallery .isotope .item.height2,
+    .image-gallery .classic-gallery .isotope .item {
+        width: 25%;
+        height: auto;
+    }
+    .image-gallery .classic-gallery .isotope .item.width2 {
+        width: 50%;
+        height: auto;
+    }
+    .image-gallery .news-gallery .isotope .item,
+    .image-gallery .massonry-gallery .isotope .item,
+    .image-gallery .massonry-gallery .isotope .item.height2 {
+        width: 33.3333%;
+        height: auto;
+        padding: 5px;
+    }
+    .image-gallery .massonry-gallery .isotope .item.width2 {
+        width: 66.333333%;
+        height: auto;
+        padding: 5px;
+    }
+    .image-gallery .news-gallery .isotope .item {
+        width: 25%;
+        height: auto;
+    }
+    .image-gallery .news-gallery .isotope .item.width2 {
+        width: 50%;
+        height: auto;
+    }
+    .pro-list-box .pro-txt {
+        padding: 15px;
+    }
+    .fvid-right {
+        float: right;
+        width: 66%;
+    }
+    .ng-txt,
+    .hnews-box .hnews-txt,
+    .sports-news .news-list-post .post-txt {
+        padding: 10px;
+    }
+    .contact-two .contact-box {
+        padding: 15px;
+    }
+    .page-404 .p404-wrap {
+        padding: 50px;
+        width: 80%;
+    }
+    .p404-wrap h1 {
+        font-size: 100px;
+    }
+    .match-header .teamz {
+        padding: 0px;
+        width: 100%;
+    }
+    .match-header .teamz li.mt-right img,
+    .match-header .teamz li.mt-left img {
+        width: 50px;
+    }
+    .match-header .teamz li.mt-right,
+    .match-header .teamz li.mt-left {
+        text-align: center;
+    }
+    .match-header .teamz li.mt-left,
+    .match-header .mt-center-score,
+    .match-header .teamz li.mt-right {
+        width: 33.333333%;
+    }
+    .rev_slider_wrapper h1 span,
+    .rev_slider_wrapper h1 {
+        font-size: 42px !important;
+        line-height: 48px !important;
+    }
+    .rev_slider_wrapper a {
+        display: none;
+    }
+    .list-box-expand .news-caption {
+        padding: 7px;
+    }
+    .home-blue .logo-navbar .nav-item>a {
+        font-size: 13px;
+        padding: 0 6px;
+    }
+    .ms-news {
+        padding: 10px 0;
+    }
+    .ms-news-thumb img {
+        margin: 0px;
+    }
+    .ms-news-thumb {
+        width: 75px;
+    }
+    .ms-news-txt {
+        padding: 0px;
+    }
+    .ms-news-txt h5 {
+        font-size: 14px;
+    }
+    .ms-news-txt span {
+        font-size: 12px;
+    }
+    .share-widget {
+        padding: 30px 10px;
+    }
+    .share-widget ul li {
+        margin: 0 5px;
+    }
+    .tp-info {
+        padding: 15px;
+    }
+    .fb-txt-post {
+        padding: 50px 15px 0;
+    }
+    .h4-probox .pro-txt {
+        padding: 20px;
+    }
+    #filters .button {
+        margin: 0px;
+    }
+    #newsupdate-slider .hnews-box .hnews-txt {
+        padding: 15px;
+    }
+    .last-match li {
+        padding: 0 12px;
+    }
+    .last-match .mscore {
+        width: 65px;
+    }
+    .last-match-result-full-light {
+        padding: 15px;
+    }
+    .last-match-result-full-light .mscore {
+        margin-left: 35px;
+    }
+    .sidebar {
+        padding: 15px;
+    }
+    .inner-banner-header {
+        padding: 60px 0 0;
+        min-height: 200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrapper h1 {
+        font-size: 32px;
+    }
+    .wrapper .container {
+        max-width: 100%;
+    }
+    .wrapper h2 {
+        font-size: 28px;
+    }
+    .wrapper h3 {
+        font-size: 24px;
+    }
+    .wrapper h4 {
+        font-size: 20px;
+    }
+    .wrapper h5 {
+        font-size: 18px;
+    }
+    .wrapper h6 {
+        font-size: 16px;
+    }
+    li.acctount-btn,
+    .toplinks .btn.btn-secondary {
+        padding: 0 5px;
+    }
+    .inner-banner-header {
+        padding: 60px 0 0;
+        min-height: 200px;
+    }
+    .main-header .logo-navbar {
+        padding: 15px 0;
+    }
+    .logo {
+        padding: 0px;
+    }
+    .logo-navbar .navbar {
+        display: block;
+    }
+    .logo-navbar .navbar button {
+        background: rgba(255, 255, 255, .20);
+        height: 40px;
+        color: goldenrod;
+        float: right;
+        
+    }
+    #home-slider .caption {
+        top: 50px;
+    }
+    #home-slider .caption h1 {
+        font-size: 36px;
+        line-height: 45px;
+        margin: 0 0 20px;
+    }
+    #home-slider .caption a {
+        line-height: 40px;
+        padding: 0 20px;
+        margin-right: 20px;
+    }
+    .slidetab-box span {
+        width: 40px;
+        height: 40px;
+        border: 2px solid #454b5e;
+        line-height: 36px;
+        font-size: 14px;
+    }
+    .slidetab-box {
+        padding: 0 0 0 50px;
+    }
+    .slidetab-box h6 {
+        font-size: 14px;
+    }
+    .slidetab-box strong {
+        color: #fff;
+    }
+    .tweets-banner ul,
+    .pro-box,
+    .next-match-widget {
+        margin: 0 0 30px;
+    }
+    .banner-wrap {
+        padding: 0 10px;
+    }
+    .banner-wrap img {
+        max-width: 100%;
+        height: auto;
+    }
+    .news-Media-gallery .nav-tabs .nav-item .nav-link {
+        padding: 0 10px;
+    }
+    .vn-txt,
+    .hnews-box .hnews-txt,
+    .news-box .news-caption {
+        padding: 10px;
+    }
+    .news-box .ndate {
+        display: none;
+    }
+    .hnews-box .hnews-txt h4,
+    .vn-txt h4,
+    .news-box .news-caption h5,
+    .news-box .news-caption h4 {
+        line-height: 24px;
+        font-size: 16px;
+    }
+    .hnews-box .hnews-txt ul.news-meta {
+        padding: 10px 0 0;
+    }
+    .hnews-box .hnews-txt p {
+        font-size: 14px;
+    }
+    .player-box .player-txt,
+    .player-box .player-thumb {
+        width: 100%;
+    }
+    .player-box .player-thumb {
+        text-align: center;
+    }
+    .star-tag {
+        display: none;
+    }
+    .tweets-banner {
+        height: auto;
+    }
+    .tweets-banner .tbanner {
+        background: url(../images/tbanner.jpg) no-repeat;
+        position: relative;
+        width: 100%;
+        height: inherit;
+        padding: 60px;
+    }
+    .footer-widget {
+        padding: 30px 0;
+    }
+    .nms-info a {
+        padding: 0 5px;
+        font-weight: 500;
+    }
+    .mt-m90 {
+        margin-top: 0;
+    }
+    .h3-next-match.wf100.mt-m90 {
+        margin-top: 60px;
+    }
+    .dnm {
+        display: none;
+    }
+    /*****************************/
+    .home-two .slider-tabs {
+        display: none;
+    }
+    .home-two #home-slider .caption h1 {
+        font-size: 48px;
+        line-height: 60px;
+        text-transform: inherit;
+    }
+    .team-squad-box,
+    .prodcut-slider,
+    .top-stories-widget {
+        margin: 0 0 30px;
+    }
+    .top-stories li.story-row {
+        min-height: 90px;
+    }
+    .hideonmobile {
+        display: none;
+    }
+    .last-match .match-info {
+        width: 45%;
+    }
+    .full-row,
+    .newsletter-two,
+    .h2-team-squad {
+        width: 100%;
+        margin: 0px;
+    }
+    .social-col {
+        padding: 30px;
+    }
+    .social-media li {
+        width: 140px;
+    }
+    .copyr {
+        line-height: 24px;
+    }
+    .footer-links li a {
+        font-size: 12px;
+    }
+    .nms-box .team-logo-right,
+    .nms-box .team-logo-left {
+        padding: 15px;
+    }
+    .last-match-widget .defaultCountdown {
+        width: 100%;
+        margin: 0px;
+    }
+    .last-match-widget .match-teams-vs {
+        display: table;
+        text-align: center;
+    }
+    .last-match-widget .match-teams-vs li {
+        display: inline-table;
+        float: none;
+    }
+    .image-gallery .classic-gallery .isotope .item.height2,
+    .image-gallery .classic-gallery .isotope .item {
+        width: 25%;
+        height: auto;
+    }
+    .image-gallery .classic-gallery .isotope .item.width2 {
+        width: 50%;
+        height: auto;
+    }
+    .image-gallery .massonry-gallery .isotope .item,
+    .image-gallery .massonry-gallery .isotope .item.height2 {
+        width: 33.3333%;
+        height: auto;
+        padding: 5px;
+    }
+    .image-gallery .massonry-gallery .isotope .item.width2 {
+        width: 66.333333%;
+        height: auto;
+        padding: 5px;
+    }
+    .image-gallery .news-gallery .isotope .item {
+        width: 25%;
+        height: auto;
+    }
+    .image-gallery .news-gallery .isotope .item.width2 {
+        width: 50%;
+        height: auto;
+    }
+    .gallery-thumb span {
+        display: none;
+    }
+    .pro-list-box .pro-txt {
+        padding: 15px;
+    }
+    .player-social-media,
+    .shop-images {
+        margin: 0 0 30px;
+    }
+    .career-facts table tbody tr td,
+    .career-facts table thead tr th {
+        font-size: 14px;
+        line-height: 40px;
+    }
+    .player-box.large .player-txt {
+        padding: 20px;
+    }
+    .player-box.large .player-txt a.follow {
+        bottom: 20px;
+    }
+    .contact-box {
+        padding: 10px;
+    }
+    .contact-box p {
+        font-size: 14px;
+    }
+    .contact-two .contact-box {
+        text-align: center;
+        padding: 10px;
+    }
+    .error-page-404 .p404-wrap,
+    .page-404 .p404-wrap {
+        padding: 50px;
+        width: 80%;
+    }
+    .p404-wrap h1 {
+        font-size: 100px;
+    }
+    .match-header .teamz li.mt-left strong,
+    .match-header .teamz li.mt-right strong {
+        font-size: 20px;
+        margin-right: 10px;
+        line-height: 50px;
+    }
+    .match-header .teamz li.mt-right img,
+    .match-header .teamz li.mt-left img {
+        width: 50px;
+    }
+    .match-header .teamz {
+        padding: 0px;
+        width: 100%;
+    }
+    .match-header .teamz li.mt-right img,
+    .match-header .teamz li.mt-left img {
+        width: 50px;
+    }
+    .match-header .teamz li.mt-right,
+    .match-header .teamz li.mt-left {
+        text-align: center;
+    }
+    .match-header .teamz li.mt-left,
+    .match-header .mt-center-score,
+    .match-header .teamz li.mt-right {
+        width: 33.333333%;
+    }
+    .main-nav {
+        display: none;
+    }
+    .mobile-nav-toggle {
+        right: 40px;
+        top: 60px;
+    }
+    .rev_slider_wrapper h1 span,
+    .rev_slider_wrapper h1 {
+        font-size: 32px !important;
+        line-height: 42px !important;
+    }
+    .rev_slider_wrapper a {
+        display: none;
+    }
+    .h3-match-counter {
+        display: none;
+    }
+    .mh-video-news,
+    .h4-probox,
+    .fvideo-box,
+    .lp-box,
+    .h3-next-match .next-match-box {
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+    .h3-team .nav-link {
+        padding: 0 8px;
+    }
+    .list-box-expand {
+        height: 135px;
+    }
+    .footer-three .footer-widget.about-widget {
+        padding: 30px 30px 30px 0;
+    }
+    .f-newsletter .input-group .form-control,
+    .f-newsletter button {
+        font-size: 12px;
+    }
+    .ms-news {
+        padding: 10px 0;
+    }
+    .ms-news-thumb img {
+        margin: 0px;
+    }
+    .ms-news-thumb {
+        width: 75px;
+    }
+    .ms-news-txt {
+        padding: 0px;
+    }
+    .ms-news-txt h5 {
+        font-size: 14px;
+    }
+    .ms-news-txt span {
+        font-size: 12px;
+    }
+    .video-action {
+        padding: 50px 30px;
+    }
+    .hnews-box {
+        width: 50%;
+    }
+    #filters .button {
+        padding: 0 10px;
+        font-size: 14px;
+        margin-right: 5px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .live-show {
+        padding: 0 12px;
+        font-size: 12px;
+    }
+    .next-match-fixtures .nmf-loc li {
+        padding: 0 5px;
+    }
+    .social-media-wall ul li {
+        width: 50%;
+    }
+    .sidebar {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .wrapper h1 {
+        font-size: 32px;
+    }
+    .wrapper h2 {
+        font-size: 28px;
+    }
+    .wrapper h3 {
+        font-size: 24px;
+    }
+    .wrapper h4 {
+        font-size: 20px;
+    }
+    .wrapper h5 {
+        font-size: 18px;
+    }
+    .wrapper h6 {
+        font-size: 16px;
+    }
+    .social-media-wall ul li {
+        width: 50%;
+    }
+    li.acctount-btn,
+    .toplinks .btn.btn-secondary {
+        padding: 0 5px;
+    }
+    .main-header .logo-navbar {
+        padding: 25px 0;
+    }
+    .logo {
+        padding: 0px;
+    }
+    .logo-navbar .navbar {
+        display: block;
+    }
+    .logo-navbar .navbar button {
+        background: rgba(255, 255, 255, .20);
+        height: 40px;
+        color: #fff;
+        float: right;
+    }
+    .slider-tabs {
+        display: none;
+    }
+    #home-slider .caption {
+        top: 50px;
+    }
+    .home-two #home-slider .caption h1,
+    #home-slider .caption h1 {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 10px;
+    }
+    #home-slider .caption a.btn2,
+    #home-slider .caption a {
+        line-height: 28px;
+        padding: 0 15px;
+        font-size: 12px;
+    }
+    .match-teams-vs {
+        padding: 20px 10px;
+    }
+    .player-box,
+    .pro-box,
+    .tweet-box,
+    .news-Media-gallery .nav.nav-tabs,
+    .next-match-widget {
+        margin: 0 0 30px;
+    }
+    .banner-wrap {
+        padding: 0 10px;
+    }
+    .banner-wrap img {
+        width: 100%;
+        height: auto;
+    }
+    .sponsor-logos img {
+        width: 100%;
+        height: auto;
+    }
+    .tweets-banner {
+        height: auto;
+        padding: 60px 0 0;
+    }
+    .tweets-banner .tbanner {
+        background: url(../images/tbanner.jpg) no-repeat;
+        position: inherit;
+        width: 100%;
+        height: inherit;
+        top: 0;
+        right: 0;
+        padding: 20px;
+    }
+    .footer-widget {
+        padding: 30px 0;
+    }
+    .newsletter {
+        margin: 0 0 40px;
+    }
+    .copyr {
+        line-height: 24px;
+        margin: 10px 0 0;
+    }
+    .quick-links {
+        text-align: center;
+    }
+    /*****************************/
+    .boxed {
+        padding: 30px 10px 0;
+    }
+    .featured-video-widget,
+    .top-stories-widget {
+        padding: 0px;
+        margin: 0 0 30px;
+    }
+    .team-squad-box,
+    .fiximg {
+        margin: 0 0 30px;
+    }
+    .match-result-tabs .nav-tabs .nav-link {
+        padding: 0 10px;
+        line-height: 44px;
+        font-size: 18px;
+        color: #222222;
+    }
+    .h2-team-squad {
+        width: 100%;
+        margin: 0px;
+    }
+    .newsletter-two {
+        display: block;
+        width: 100%;
+    }
+    .newsletter-two .form-control {
+        margin: 10px 0;
+    }
+    .last-match-result {
+        width: 100%;
+        float: left;
+        padding: 10px;
+    }
+    .last-match .match-info {
+        width: 37%;
+    }
+    .last-match li {
+        padding: 0 5px;
+    }
+    .last-match .team-name {
+        width: 75px;
+    }
+    .ts-thumb {
+        width: 60px;
+        height: 60px;
+    }
+    .top-stories li.story-row {
+        padding: 0 0 15px 70px;
+    }
+    .slogos,
+    .prodcut-slider,
+    .news-block {
+        margin: 0 0 30px;
+        overflow: hidden;
+    }
+    .banner-col,
+    .social-col,
+    .full-row {
+        width: 100%;
+        margin: 0px;
+    }
+    .hideonmobile {
+        display: none;
+    }
+    .nms-box .team-logo-right,
+    .nms-box .team-logo-left {
+        padding: 15px;
+    }
+    .last-match-widget .defaultCountdown {
+        width: 100%;
+        margin: 0px;
+    }
+    .last-match-widget .match-teams-vs {
+        display: table;
+        text-align: center;
+    }
+    .last-match-widget .match-teams-vs li {
+        display: inline-table;
+        float: none;
+    }
+    .last-match-result-full .p30 {
+        padding: 15px;
+    }
+    .lmr-info img {
+        max-width: 100%;
+    }
+    .last-match-result-full .mscore {
+        float: right;
+        margin: 0px;
+    }
+    .lmr-info a.mh {
+        padding: 0 5px;
+    }
+    .image-gallery .classic-gallery .isotope .item.height2,
+    .image-gallery .classic-gallery .isotope .item {
+        width: 25%;
+        height: auto;
+    }
+    .image-gallery .classic-gallery .isotope .item.width2 {
+        width: 50%;
+        height: auto;
+    }
+    .image-gallery .massonry-gallery .isotope .item,
+    .image-gallery .massonry-gallery .isotope .item.height2 {
+        width: 33.3333%;
+        height: auto;
+        padding: 5px;
+    }
+    .image-gallery .massonry-gallery .isotope .item.width2 {
+        width: 66.333333%;
+        height: auto;
+        padding: 5px;
+    }
+    .image-gallery .news-gallery .isotope .item {
+        width: 25%;
+        height: auto;
+    }
+    .image-gallery .news-gallery .isotope .item.width2 {
+        width: 50%;
+        height: auto;
+    }
+    .gallery-thumb span {
+        display: none;
+    }
+    .match-results-list .last-match {
+        padding: 10px;
+    }
+    .last-match-result-full-light .mscore {
+        margin: 0 0 0 5px;
+    }
+    .post-bottom {
+        padding: 0 15px;
+    }
+    .post-tags li {
+        margin: 2px;
+    }
+    ul.comment-time,
+    ul.post-time,
+    .post-author-box img {
+        position: inherit;
+        top: inherit;
+        left: inherit;
+        margin: 0 0 10px;
+        clear: both;
+        right: inherit;
+    }
+    ul.comments .comment {
+        width: 100%;
+        float: left;
+        position: relative;
+        margin: 0 0 10px;
+        padding: 0;
+    }
+    .comments .comment .user-thumb {
+        width: 72px;
+        position: relative;
+        left: inherit;
+        top: inherit;
+        margin: 0 0 10px;
+    }
+    .user-comments p {
+        clear: both;
+    }
+    .post-comments-form ul li.half-col {
+        width: 100%;
+    }
+    .inner-banner-header h1:after {
+        font-size: 50px;
+        top: -16px;
+    }
+    .ng-txt,
+    .post-author-box,
+    .news-large-post .post-txt,
+    .last-match-result-full-light {
+        padding: 15px;
+    }
+    .quote-post blockquote p {
+        color: #fff;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 35px;
+        margin: 0px;
+    }
+    ul.post-meta li {
+        margin-right: 10px;
+    }
+    .comment-form li.w3,
+    .news-list-post .post-txt,
+    .news-list-post .post-thumb {
+        width: 100%;
+    }
+    .shop-filter strong,
+    .shop-filter ul li {
+        font-size: 12px;
+    }
+    .pro-list-box .pro-txt {
+        padding: 10px;
+    }
+    .comment-form ul {
+        margin: 0px;
+    }
+    .product-tabs .nav-tabs .nav-link {
+        background: #eeeeee;
+        border: 1px solid #e1e1e1;
+        margin-right: 10px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 20px;
+        color: #222222;
+        line-height: 44px;
+        padding: 0 10px;
+    }
+    .player-social-media,
+    .shop-images {
+        margin: 0 0 30px;
+    }
+    .player-box.large .player-thumb,
+    .player-box.large .player-txt,
+    .player-card .player-details,
+    .player-details ul,
+    .player-card .pimg {
+        width: 100%;
+    }
+    .career-facts table thead tr th {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .career-facts table tbody tr td {
+        font-size: 14px;
+        line-height: 40px;
+        width: 60px;
+    }
+    .player-box.large .player-txt a.follow {
+        bottom: 10px;
+    }
+    .player-box.large .player-txt {
+        padding: 20px;
+    }
+    .sports-news .news-list-post .post-txt,
+    .sports-news .news-list-post .post-thumb {
+        width: 100%;
+    }
+    .contact-form .form-row,
+    .contact-box {
+        margin: 0 0 30px;
+    }
+    .error-page-404 .p404-wrap,
+    .page-404 .p404-wrap {
+        padding: 20px;
+        width: 100%;
+    }
+    .p404-wrap h1 {
+        font-size: 100px;
+    }
+    .match-header.upcoming-match .teamz li.mt-left,
+    .match-header.upcoming-match .mt-center-score,
+    .match-header.upcoming-match .teamz li.mt-right {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .match-header .teamz li.mt-right img,
+    .match-header .teamz li.mt-left img {
+        float: none;
+        display: inline-block;
+    }
+    .match-header .teamz li.mt-left strong,
+    .match-header .teamz li.mt-right strong {
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        line-height: 40px;
+    }
+    .up-match-meta {
+        margin: 30px 0;
+    }
+    .match-counter .defaultCountdown {
+        padding: 0;
+    }
+    .match-header .teamz {
+        padding: 0px;
+        width: 100%;
+    }
+    .match-header .teamz li.mt-right img,
+    .match-header .teamz li.mt-left img {
+        width: 50px;
+    }
+    .match-header .teamz li.mt-right,
+    .match-header .teamz li.mt-left {
+        text-align: center;
+    }
+    .match-header .teamz li.mt-left,
+    .match-header .mt-center-score,
+    .match-header .teamz li.mt-right {
+        width: 33.333333%;
+    }
+    .main-nav {
+        display: none;
+    }
+    .mobile-nav-toggle {
+        right: 20px;
+        top: 60px;
+    }
+    .rev_slider_wrapper h1 span,
+    .rev_slider_wrapper h1 {
+        font-size: 24px !important;
+        line-height: 36px !important;
+    }
+    .rev_slider_wrapper a {
+        display: none;
+    }
+    .h3-match-counter {
+        display: none;
+    }
+    .h3-next-match.wf100.mt-m90 {
+        margin: 30px 0 0;
+    }
+    .wrapper .container {
+        max-width: 100%;
+    }
+    .fvideo-box,
+    .lp-box,
+    .h3-next-match .next-match-box {
+        margin-bottom: 30px;
+    }
+    .h3-match-gallery img {
+        width: 100%;
+        height: auto;
+    }
+    .list-box-expand .news-caption {
+        padding: 2px 10px;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+    .flogo {
+        padding: 20px 0;
+    }
+    .f-newsletter .input-group .form-control {
+        font-size: 12px;
+    }
+    .ms-news {
+        padding: 10px 0;
+    }
+    .ms-news-thumb img {
+        margin: 0px;
+    }
+    .ms-news-thumb {
+        width: 75px;
+    }
+    .ms-news-txt {
+        padding: 0px;
+    }
+    .ms-news-txt h5 {
+        font-size: 14px;
+    }
+    .ms-news-txt span {
+        font-size: 12px;
+    }
+    .mh-video-news,
+    .h4-probox,
+    .h4-news-box {
+        margin: 0 0 30px;
+        overflow: hidden;
+    }
+    .video-action {
+        padding: 50px 30px;
+    }
+    .news-updates .owl-dots {
+        display: none;
+    }
+    .players-squad .gallery li {
+        width: 50%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 575px) {
+    .main-header .topbar,
+    .slider-tabs {
+        margin: 0px;
+        display: none;
+    }
+    .logo {
+        text-align: left;
+    }
+    .mobile-nav-toggle {
+        top: 20px;
+    }
+    .logo-navbar .navbar {
+        background: rgba(255, 255, 255, .09);
+        margin: 20px 0 0;
+        padding: 10px;
+        width: 100%;
+        float: left;
+    }
+    .navbar-light .navbar-toggler i {
+        color: #fff;
+        font-size: 28px;
+    }
+    #home-slider .caption {
+        top: 20px;
+    }
+    #home-slider .caption h1 {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 10px;
+    }
+    #home-slider .caption a {
+        line-height: 28px;
+        padding: 0 15px;
+        font-size: 12px;
+    }
+    .match-teams-vs {
+        padding: 20px 10px;
+    }
+    .match-teams-vs li.team-logo img {
+        width: 50px;
+        height: auto;
+    }
+    .match-teams-vs li.team-logo strong {
+        font-size: 18px;
+    }
+    .next-match-fixtures .match-teams-vs li.team-logo strong {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .next-match-fixtures .mvs p {
+        font-size: 12px;
+    }
+    .next-match-fixtures .nmf-loc li {
+        padding: 0 5px;
+    }
+    .point-table-widget table tbody tr td {
+        padding: 5px;
+        font-size: 12px;
+    }
+    .news-Media-gallery .nav-tabs .nav-item .nav-link {
+        padding: 0 8px;
+        font-size: 12px;
+    }
+    a.full-team {
+        position: inherit;
+        display: inline-block;
+        margin: 20px 0 0;
+    }
+    .player-box .player-thumb {
+        width: 100%;
+        text-align: center;
+    }
+    .player-box .player-txt {
+        width: 100%;
+    }
+    .sponsor-logos img {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+    }
+    /******************/
+    .match-result-tabs .nav-tabs .nav-item {
+        width: 100%;
+    }
+    .fixtures-light {
+        padding: 0px;
+    }
+    .last-match-result {
+        padding: 10px;
+        width: 100%;
+        float: left;
+    }
+    .last-match .match-info {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .last-match li {
+        float: none;
+        display: inline-block;
+    }
+    .last-match {
+        text-align: center;
+    }
+    .tab-pane.fade.p30 {
+        padding: 5px;
+    }
+    .adbanners img {
+        margin: 0 0 15px;
+    }
+    .slogos,
+    .prodcut-slider,
+    .top-stories {
+        margin: 0 0 30px;
+    }
+    .wrapper .title2 {
+        font-size: 28px;
+    }
+    .banner-col img {
+        max-width: 100%;
+        height: auto;
+    }
+    .h2-team-squad,
+    .banner-col,
+    .social-col,
+    .full-row {
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+    .last-match-result-full .p30 {
+        padding: 20px;
+    }
+    .lmr-info {
+        text-align: center;
+        margin: 0 0 20px;
+    }
+    .nms-box .team-logo-right,
+    .nms-box .team-logo-left {
+        padding: 20px;
+    }
+    .last-match-result-full .mscore {
+        float: left;
+    }
+    .image-gallery .news-gallery .isotope .item,
+    .image-gallery .news-gallery .isotope .item.width2,
+    .image-gallery .massonry-gallery .isotope .item,
+    .image-gallery .massonry-gallery .isotope .item.height2,
+    .image-gallery .massonry-gallery .isotope .item.width2,
+    .image-gallery .classic-gallery .isotope .item,
+    .image-gallery .classic-gallery .isotope .item.width2,
+    .image-gallery .classic-gallery .isotope .item.height2 {
+        width: 100%;
+        height: auto;
+    }
+    .shop-banners img {
+        margin: 0 0 10px;
+    }
+    .pro-list-box .pro-txt,
+    .pro-list-box .pro-thumb {
+        width: 100%;
+    }
+    .player-social-media,
+    .shop-images {
+        margin: 0 0 30px;
+    }
+    .cart-qty button.add-2-cart {
+        padding: 0 10px;
+    }
+    .product-tabs .nav-tabs .nav-link {
+        width: 100%;
+        display: block;
+    }
+    .player-card .player-details,
+    .product-tabs .tab-content {
+        padding: 10px;
+    }
+    .product-tabs table td {
+        border: 1px solid #e1e1e1;
+        padding: 5px;
+        font-size: 14px;
+    }
+    .player-card .player-details,
+    .player-details ul,
+    .player-card .pimg {
+        width: 100%;
+    }
+    .career-facts table thead tr th {
+        font-size: 10px;
+        line-height: 24px;
+    }
+    .career-facts table tbody tr td {
+        font-size: 12px;
+        line-height: 40px;
+    }
+    .player-box.large .player-txt a.follow {
+        bottom: 10px;
+    }
+    .player-box.large .player-txt a.playerbio {
+        margin: 0 0 10px;
+    }
+    .contact-form .form-row .half-col,
+    .sports-news .news-list-post .post-txt,
+    .sports-news .news-list-post .post-thumb {
+        width: 100%;
+    }
+    .contact-box,
+    .contact-form .form-row {
+        margin: 0 0 30px;
+    }
+    .error-page-404 .p404-wrap,
+    .page-404 .p404-wrap {
+        padding: 20px;
+        width: 100%;
+    }
+    .p404-wrap h1 {
+        font-size: 100px;
+    }
+    .match-header .teamz li.mt-left,
+    .match-header .mt-center-score,
+    .match-header .teamz li.mt-right,
+    .match-header.upcoming-match .teamz li.mt-left,
+    .match-header.upcoming-match .mt-center-score,
+    .match-header.upcoming-match .teamz li.mt-right {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .match-header .teamz li.mt-right img,
+    .match-header .teamz li.mt-left img {
+        float: none;
+        display: inline-block;
+    }
+    .match-header .teamz li.mt-left strong,
+    .match-header .teamz li.mt-right strong {
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        line-height: 40px;
+    }
+    .up-match-meta {
+        margin: 30px 0;
+    }
+    .match-counter .defaultCountdown {
+        padding: 0;
+    }
+    .match-score li {
+        width: 100%;
+    }
+    .match-header .match-score li.text-left p,
+    .match-header .match-score li.text-right p {
+        text-align: left;
+    }
+    .img-responsive {
+        margin: 0 0 20px;
+    }
+    .match-results-table td,
+    .match-results-table thead tr td {
+        padding: 2px;
+        font-size: 11px;
+    }
+    .team-one-scrore ul li {
+        width: 50%;
+    }
+    .match-image-collection img,
+    .watchvideohighlights img {
+        max-width: 100%;
+        height: auto;
+    }
+    .main-nav {
+        display: none;
+    }
+    .rev_slider_wrapper h1 span,
+    .rev_slider_wrapper h1 {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    .news-updates .owl-dots,
+    .rev_slider_wrapper a {
+        display: none;
+    }
+    .h3-next-match.wf100.mt-m90 {
+        margin: 30px 0 0;
+    }
+    .h3-next-match .next-match-box .team-logo-left,
+    .h3-next-match .next-match-box .team-logo-right {
+        padding: 20px 0;
+    }
+    ul.gallery-row,
+    .h3-team div#nav-tab,
+    .lp-box,
+    .fvideo-box,
+    .h3-next-match .next-match-box {
+        margin-bottom: 30px;
+    }
+    .h3-videos blockquote {
+        color: #fff;
+        position: relative;
+        font-size: 18px;
+        font-style: italic;
+        padding: 0 0 0 60px;
+        line-height: 28px;
+        margin: 0 0 70px;
+    }
+    ul.gallery-row li.gall-cal {
+        width: 100%;
+    }
+    .h3-tweets {
+        padding: 0px;
+    }
+    .h3-team .nav-link {
+        padding: 0 5px;
+        border-radius: 3px;
+        margin: 0 3px;
+    }
+    .f-newsletter .input-group,
+    .mgall-box {
+        margin: 0 0 10px;
+    }
+    .list-box-expand {
+        height: 120px;
+    }
+    .f-newsletter ul,
+    .footer-three .partner-logos ul {
+        display: block;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+    .flogo {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .ms-news-thumb img,
+    .main-slider-news {
+        margin: 0px;
+        height: auto;
+    }
+    .ms-news {
+        padding: 10px;
+    }
+    .ms-news:after {
+        display: none;
+    }
+    .ms-news-txt {
+        padding: 0px;
+    }
+    .h4-news-box.full .news-txt,
+    .h4-news-box.full .vthumb {
+        width: 100%;
+    }
+    .share-widget {
+        padding: 30px 10px;
+    }
+    .share-widget ul li {
+        margin: 0 5px;
+    }
+    .h4-probox,
+    .mh-video-news {
+        margin: 0 0 30px;
+        width: 100%;
+        float: left;
+    }
+    .social-media-wall ul li {
+        width: 100%;
+    }
+    .news-updates .owl-dots {
+        display: none;
+    }
+    .players-squad .gallery li {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    #filters {
+        margin: 0 0 20px;
+    }
+    #filters .button {
+        height: 36px;
+        line-height: 36px;
+        padding: 0 7px;
+        font-size: 12px;
+        margin: 0 3px 0 0;
+    }
+    .live-show {
+        line-height: 36px;
+        padding: 0 7px;
+        font-size: 12px;
+    }
+    .mb-80 {
+        margin-bottom: 60px;
+    }
+    .p80 {
+        padding: 60px 0;
+    }
+    #home-slider .caption a.btn2,
+    #home-slider .caption a {
+        display: none;
+    }
+    .inner-banner-header {
+        padding: 50px 0 0;
+        min-height: 180px;
+    }
+}
