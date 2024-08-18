@@ -1,0 +1,1199 @@
+	@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+	    color: #efb130;
+	    text-transform: uppercase;
+	    font-family: 'Questrial', sans-serif;
+	}
+
+	h2 {
+	    font-size: 27px;
+	}
+
+	h3 {
+	    font-size: 20px;
+	}
+
+	h4 {}
+
+	p {
+	    font-family: 'Questrial', sans-serif;
+	    font-size: 16px;
+	    text-align: justify;
+	}
+
+	body {
+	    background: #000000;
+	    color: #fff;
+	    font-family: 'Questrial', sans-serif;
+	}
+
+	#header {
+	    background: url('images/background.jpg') left bottom;
+	    background-size: 100% 100%;
+	}
+
+	header {
+	    position: relative;
+	}
+
+	a {
+	    color: #f0b643;
+	}
+
+	a:focus,
+	a:hover {
+	    color: #f0b643;
+	    text-decoration: none;
+	}
+
+	a:focus {
+	    outline: 0;
+	}
+
+	.section-padding {
+	    padding: 60px 0;
+	}
+
+	/*.header-main { position: absolute; top: 0; height: 100%;}*/
+
+	.nopad {
+	    padding: 0px;
+	}
+
+	.navbar {
+	    margin: 0;
+	    border: none;
+	    background: #f0b643;
+	    clear: both;
+	}
+
+	.navbar-nav>li {
+	    font-size: 15px;
+	    letter-spacing: 0.5px;
+	}
+
+	.navbar-default .navbar-nav>li>a {
+	    font-weight: bold;
+	    color: #000;
+	    text-transform: uppercase;
+	    font-family: 'Questrial', serif;
+	    line-height: unset;
+	}
+
+	.navbar-nav>li:hover>a:before {
+	    position: absolute;
+	    height: 3px;
+	    content: "";
+	    display: inline-block;
+	    background: #ffffff;
+	    left: 0;
+	    top: 0;
+	    width: 100%;
+	}
+
+	.navbar-default .navbar-nav>.active>a,
+	.navbar-default .navbar-nav>.active>a:focus,
+	.navbar-default .navbar-nav>.active>a:hover,
+	.dropdown-menu>.active>a,
+	.dropdown-menu>.active>a:focus,
+	.dropdown-menu>.active>a:hover {
+	    color: #000;
+	    background: none;
+	}
+
+	.navbar-default .navbar-toggle {
+	    border-color: #efb130;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+	    color: #efb130;
+	    background-color: #efb130;
+	}
+
+	.dropdown:hover .dropdown-menu {
+	    display: block;
+	}
+
+	.dropdown-menu {
+	    background: rgb(240, 182, 67);
+	}
+
+	.dropdown-menu>li>a {
+	    font-weight: bold;
+	    color: #000;
+	    padding: 5px 20px;
+	}
+
+	.dropdown-menu>li>a:hover {
+	    background: #000;
+	    color: #fff;
+	}
+
+	@media (min-width: 768px) {
+	    .navbar-nav {
+	        margin: 0 auto;
+	        display: table;
+	        table-layout: auto;
+	        float: none;
+	        width: 100%;
+	    }
+	    .navbar-nav>li {
+	        display: table-cell;
+	        float: none;
+	        text-align: center;
+	    }
+	}
+
+	.ott-bg {
+	    background: url('../../2017/images/iwm-digi-awards-bg.jpg') no-repeat right bottom;
+	}
+
+	.section-title h1,
+	.section-title h2 {
+	    float: left;
+	    padding-right: 10px;
+	    color: #f0b643;
+	    position: relative;
+	    width: 100%;
+	}
+
+	.section-title h1.bg:after,
+	.section-title h2.bg:after {
+	    background: url('https://www.iwmdigitalawards.com/assets/2022/images/section-title-bg.png') no-repeat;
+	    content: '';
+	    height: 27px;
+	    width: 100%;
+	    top: 1px;
+	    position: absolute;
+	    overflow: hidden;
+	}
+
+	.section-content {
+	    width: 100%;
+	}
+
+	.section-content p {
+	    font-size: 18px;
+	    line-height: 29px;
+	}
+
+	.clearfix {
+	    clear: both;
+	    float: left;
+	    margin: 30px 0;
+	}
+
+	.logo-container {
+	    position: absolute;
+	    top: 15%;
+	    left: 34%;
+	}
+
+	.logo {
+	    text-align: center;
+	}
+
+	.trophy-container {
+	    position: absolute;
+	    bottom: 9%;
+	    right: 7%;
+	}
+
+	.trophy {
+	    position: relative;
+	    width: 50%;
+	    margin: 0 auto;
+	}
+
+	.ts_img_view {
+	    width: 100% !important;
+	    position: relative !important;
+	}
+
+	.about-us {
+	    position: relative;
+	    padding: 0px;
+	}
+
+	.about-us .productcarouselbg .img-responsive {
+	    width: 100%;
+	}
+
+	.pull-center {
+	    margin: 0 auto;
+	    float: unset;
+	    display: block !important;
+	}
+
+	.about-container {
+	    bottom: 0;
+	    position: absolute;
+	    width: 100%;
+	}
+
+	.mobile-view {
+	    position: relative;
+	    overflow: hidden;
+	    margin: 0 auto;
+	    max-width: 550px;
+	}
+
+	.mobile-view .mobile-bg {
+	    z-index: 1;
+	    position: relative;
+	}
+
+	.mobile-view .videoWrapper iframe,
+	.mobile-view .videoWrapper img {
+	    background: url(/assets/2019/images/mobile-screen.png) center center no-repeat;
+	    box-sizing: border-box;
+	    background-size: contain;
+	}
+
+	.videoWrapper {
+	    position: relative;
+	    padding-bottom: 49%;
+	    padding-top: 25px;
+	    height: 0;
+	    border: 15px solid #f0b643;
+	    border-radius: 15px;
+	}
+
+	.videoWrapper iframe,
+	.videoWrapper img {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.videoWrapper {}
+
+	.section-title {
+	    overflow: hidden;
+	}
+
+	/* 2nd example :  BACKGROUND IMAGE */
+
+	div.desktop-wrapper {
+	    position: relative;
+	    padding-top: 25px;
+	    padding-bottom: 49%;
+	    height: 0;
+	}
+
+	div.desktop-wrapper iframe,
+	div.desktop-wrapper img {
+	    box-sizing: border-box;
+	    background: url(/assets/2019/images/mobile-screen.png) center center no-repeat;
+	    background-size: contain;
+	    padding: 5% 12.6% 5% 10.6%;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+
+	/** Forms **/
+
+	.form-group {
+	    float: left;
+	    width: 100%;
+	    margin: 15px 0;
+	}
+
+	.form-start {
+	    margin: 0 auto;
+	    float: unset;
+	}
+
+	.form-container {
+	    float: left;
+	    margin: 25px 0;
+	    background: rgba(240, 182, 67, 0.3);
+	    padding: 25px 0;
+	    border: 1px solid #f0b643;
+	    clear: both;
+	}
+
+	.field-error {
+	    border: 1px solid red;
+	}
+
+	input[type="file"] {
+	    width: 100%;
+	}
+
+	.nominee-form .col-sm-4 {}
+
+	.awards-form {
+	    float: left;
+	    width: 100%;
+	}
+
+	.nominee-form .red {
+	    display: none;
+	}
+
+	.box-footer {
+	    margin-top: 30px;
+	}
+
+	/*.form-group { display: table; }
+	.control-label {
+		vertical-align: middle;
+		display: table-cell;
+		float: unset;
+	}*/
+
+	.sep-footer {
+	    padding-top: 25px;
+	    border-top: 1px solid #f0b643;
+	}
+
+	.nomination-rules p {
+	    font-size: 15px;
+	}
+
+	.nomination-rules p b {
+	    font-size: 17px;
+	}
+
+	.nomination-form .form-container {
+	    width: 100%;
+	}
+
+	#nomination-row {
+	    border-bottom: 1px solid #f0b643;
+	    clear: both;
+	    float: left;
+	    position: relative;
+	    width: 100%;
+	}
+
+	.nom-entry {
+	    margin: 0 0 0 15px;
+	    color: #f0b643;
+	}
+
+	.nom-op-control {
+	    position: absolute;
+	    bottom: 0;
+	    right: 15px;
+	}
+
+	.nom-op-control a {
+	    font-size: 24px;
+	}
+
+	.nominee-form .nomination-row:nth-child(1) #minus-nom {
+	    display: none;
+	}
+
+	.nominee-form .nomination-row:nth-child(15) .nom-op-control {
+	    display: none;
+	}
+
+	/** Entries **/
+
+	.entry-header {
+	    border-bottom: 1px solid #fff;
+	    padding-bottom: 15px;
+	}
+
+	.entry-content {
+	    padding: 15px 0;
+	    border-bottom: 1px solid #fff;
+	}
+
+	.entry-content .entry {
+	    margin: 10px 0;
+	}
+
+	.entry-footer {
+	    padding: 10px 0;
+	}
+
+	.panel {
+	    background: none;
+	}
+
+	.panel-default>.panel-heading {
+	    float: left;
+	    width: 100%;
+	}
+
+	.panel-title {
+	    float: left;
+	}
+
+	.panel-default {
+	    border-color: #f0b643;
+	}
+
+	.panel-default>.panel-heading {
+	    background-color: #f0b643;
+	    border-color: #f0b643;
+	}
+
+	.panel-heading a {
+	    color: #000;
+	    float: left;
+	    width: 100%;
+	}
+
+	.panel-group {
+	    margin-bottom: 0;
+	}
+
+	.panel-group .panel {
+	    margin: 15px 0;
+	}
+
+	/** Category **/
+
+	.nav-tabs {
+	    border-bottom: 1px solid #f0b643;
+	}
+
+	.nav-tabs>li>a {
+	    font-size: 15px;
+	    text-transform: uppercase;
+	    font-weight: bold;
+	}
+
+	.nav-tabs>li.active>a,
+	.nav-tabs>li.active>a:focus,
+	.nav-tabs>li.active>a:hover {
+	    background: #f0b643;
+	    color: #000;
+	    border: 1px solid #f0b643;
+	}
+
+	.categories-grid>div {
+	    border: 1px solid #f0b643;
+	    color: #f0b643;
+	    height: 70px;
+	    width: 31%;
+	    margin: 1%;
+	    font-size: 17px;
+	    text-align: center;
+	    display: table;
+	    line-height: 18px;
+	}
+
+	.categories-grid>div:hover {
+	    background: #000;
+	    color: #f0b643;
+	}
+
+	.categories-grid>div span {
+	    display: table-cell;
+	    vertical-align: middle;
+	}
+
+	.tab-content {
+	    margin-top: 30px;
+	}
+
+	.panel-body .col-sm-3:nth-child(4n+1) {
+	    clear: both;
+	}
+
+	/** Jury **/
+
+	.jury-person img {
+	    width: 100%;
+	}
+
+	.jury-info {
+	    background: #f0b643;
+	    padding: 10px 15px;
+	    float: left;
+	    color: #000;
+	    font-size: 16px;
+	}
+
+	.jury-name {
+	    clear: both;
+	    font-weight: bold;
+	}
+
+	.jury-desc {
+	    clear: both;
+	    float: left;
+	}
+
+	.jury-cat-o {
+	    margin: 0;
+	}
+
+	.jury-cat-o .section-title {
+	    position: relative;
+	    overflow: hidden;
+	}
+
+	.jury-cat-o .section-title h2.bg::after {
+	    background: none;
+	    content: '';
+	    height: 22px;
+	    width: 100%;
+	    top: 24px;
+	    position: absolute;
+	    overflow: hidden;
+	    border-bottom: 1px solid;
+	    margin-left: 22px;
+	}
+
+	.jury-cat-menu {
+	    padding-top: 60px;
+	    background: #000;
+	}
+
+	.jury-cat-menu.navbar-fixed-top {
+	    padding-top: 10px;
+	    border-bottom: 1px solid #f0b643;
+	}
+
+	.jury-cat-menu.navbar-fixed-top .nav-tabs {
+	    border-bottom: none;
+	}
+
+	.jury-video {
+	    margin: 35px 0;
+	}
+
+	.jury-video .videoWrapper {
+	    border: 0;
+	    border-radius: 0;
+	    padding-top: 0;
+	}
+
+	.jury-video .video-info {
+	    border: 1px solid #f0b643;
+	    padding: 10px 15px;
+	}
+
+	.jury-video .video-rating label {
+	    border: 1px solid #f0b643;
+	    color: #f0b643;
+	    border-radius: 22px;
+	    width: 45px;
+	    height: 45px;
+	    text-align: center;
+	    line-height: 45px;
+	    font-size: 22px;
+	    cursor: pointer;
+	}
+
+	.jury-video .video-rating .active label,
+	.jury-video .video-rating .lock label {
+	    background: #f0b643;
+	    color: #000;
+	}
+
+	.jury-video .video-info input[type=radio] {
+	    display: none;
+	}
+
+	.jury-forms {
+	    padding-bottom: 10px;
+	}
+
+	/*** Model Forms ***/
+
+	/* For Firefox */
+
+	input[type='number'] {
+	    -moz-appearance: textfield;
+	}
+
+	/* Webkit browsers like Safari and Chrome */
+
+	input[type=number]::-webkit-inner-spin-button,
+	input[type=number]::-webkit-outer-spin-button {
+	    -webkit-appearance: none;
+	    margin: 0;
+	}
+
+	input::-moz-placeholder {
+	    color: #aaa;
+	}
+
+	.modal .btn.btn-default {
+	    font-weight: bold;
+	}
+
+	.n-button {
+	    white-space: unset;
+	}
+
+	.modal-header {
+	    background: #f0b643;
+	}
+
+	.modal-header .modal-title {
+	    color: #000;
+	    font-size: 30px;
+	    text-align: center;
+	}
+
+	.modal-body {
+	    float: left;
+	    padding: 30px 15px;
+	    width: 100%;
+	}
+
+	.modal-content {
+	    background: #000;
+	    float: left;
+	    width: 100%;
+	}
+
+	.modal-footer {
+	    clear: both;
+	}
+
+	textarea.form-control {
+	    height: 80px;
+	}
+
+	.form-subheading {
+	    color: #fff;
+	    font-size: 20px;
+	    margin-bottom: 15px;
+	    border-bottom: 1px dashed #fff;
+	    padding-bottom: 10px;
+	}
+
+	.checkbox label,
+	.radio label {
+	    font-weight: bold;
+	}
+
+	.error {
+	    color: red;
+	}
+
+	.error-message,
+	.success-message {
+	    float: left;
+	    clear: both;
+	    color: red;
+	    border: 1px solid;
+	    padding: 10px;
+	    width: 100%;
+	    margin-top: 20px;
+	    font-size: 16px;
+	}
+
+	.success-message {
+	    color: white;
+	}
+
+	.pagination ul {
+	    list-style: none;
+	}
+
+	.pagination li {
+	    float: left;
+	    margin: 10px;
+	}
+
+	.pagination li a {
+	    background: #f0b643;
+	    color: #000;
+	    height: 40px;
+	    width: 40px;
+	    border-radius: 20px;
+	    display: inline;
+	    float: left;
+	    line-height: 40px;
+	    text-align: center;
+	    font-size: 17px;
+	    font-weight: bold;
+	}
+
+	.pagination .curr_page a {
+	    background: #000;
+	    color: #f0b643;
+	}
+
+	.img-responsive {
+	    float: unset;
+	    display: inline-block;
+	}
+
+	.gap-20 {
+	    height: 20px;
+	    clear: both;
+	}
+
+	.gap-40 {
+	    height: 40px;
+	    clear: both;
+	}
+
+	.contact-us {
+	    border-top: 5px solid #efb130;
+	}
+
+	.contact-us .contact h4 {
+	    background: #efb130;
+	    color: #000;
+	    padding: 15px;
+	}
+
+	.c-details {
+	    color: #efb130;
+	    margin-top: 10px;
+	}
+
+	.c-details>span {
+	    clear: both;
+	    float: left;
+	    width: 100%;
+	    font-size: 16px;
+	    margin-top: 5px;
+	}
+
+	.social-connect .share-title {
+	    margin: 15px 15px 0;
+	}
+
+	.connect-us {
+	    font-size: 25px;
+	    padding: 5px 0px;
+	    background: #f0b643;
+	    color: #000;
+	}
+
+	.share-icon {
+	    display: inline-block;
+	}
+
+	.connect-us a {
+	    width: 30px;
+	    height: 30px;
+	    line-height: 30px;
+	    background: #000;
+	    border-radius: 15px;
+	    color: #f0b643;
+	    font-size: 20px;
+	    display: inline-block;
+	}
+
+	.coming-soon {
+	    padding: 80px 0;
+	}
+
+	.coming-soon h2 {
+	    font-size: 50px;
+	}
+
+	.navbar-default .navbar-nav>li:hover>a {
+	    color: #fff;
+	    background: #f0b643;
+	}
+
+	footer {
+	    padding: 25px;
+	}
+
+	.nomination-row {
+	    padding: 15px 0;
+	    display: inline-block;
+	    width: 100%;
+	}
+
+	.nomination-row label {
+	    font-size: 15px;
+	    margin-bottom: 15px;
+	}
+
+	.rpxnow {
+	    line-height: 40px;
+	    width: 40px;
+	    display: inline-block;
+	    background: #f0b643;
+	    color: #000;
+	    font-size: 17px;
+	    border-radius: 20px;
+	    margin: 15px 5px 0;
+	}
+
+	.more-indianwikimedia {
+	    background-image: url('https://www.iwmdigitalawards.com/assets/2019/images/1920-x-1280--bg-2.jpg');
+	    background-size: 100% 100%;
+	}
+
+	.thumbnail {
+	    background-color: #f0b643;
+	    border: 1px solid #f0b643;
+	}
+
+	/*** Registration Form ***/
+
+	.registration-button,
+	.registration-button.focus,
+	.registration-button:focus {
+	    position: fixed;
+	    right: 8%;
+	    bottom: 30px;
+	    border: none !important;
+	    padding: 0;
+	    background: unset !important;
+	    width: 130px;
+	    outline: none !important;
+	    box-shadow: none !important;
+	    z-index: 999;
+	}
+
+	.popular-registration-button,
+	.popular-registration-button.focus,
+	.popular-registration-button:focus {
+	    position: fixed;
+	    left: 8%;
+	    bottom: 30px;
+	    border: none !important;
+	    padding: 0;
+	    background: unset !important;
+	    width: 140px;
+	    outline: none !important;
+	    box-shadow: none !important;
+	    z-index: 999;
+	}
+
+	.more {
+	    background: #f0b643;
+	    padding: 5px 15px;
+	    border-radius: 15px;
+	}
+
+	.more a {
+	    color: #000;
+	}
+
+	.sponsor-item {
+	    margin: 25px 0;
+	}
+
+	@media (min-width: 1600px) {
+	    .about-container {
+	        bottom: 0;
+	    }
+	    .mobile-view {
+	        max-width: 35%;
+	    }
+	}
+
+	@media (max-width: 768px) {
+	    .logo-container {
+	        top: 7%;
+	        left: 5%;
+	        width: 93%;
+	    }
+	    .trophy-container {
+	        bottom: 3%;
+	    }
+	    .categories-grid>div {
+	        width: 100%;
+	    }
+	    .about-container {
+	        bottom: 0;
+	        position: absolute;
+	        width: 100%;
+	    }
+	    .mobile-view {
+	        padding: 60px;
+	    }
+	    .navbar {
+	        background: unset;
+	    }
+	    .navbar-default .navbar-collapse {
+	        background: #f0b643;
+	    }
+	    .registration-button,
+	    .popular-registration-button {
+	        width: 100px;
+	    }
+	}
+
+	#videos-from-indianwikimedia .iwm-post {
+	    margin-bottom: 50px;
+	}
+
+	#videos-from-indianwikimedia .iwm-post:nth-child(3n+1) {
+	    clear: left;
+	}
+
+	#videos-from-indianwikimedia img {
+	    width: 100% !important;
+	}
+
+	/*** Speaker ***/
+
+	section.speaker {
+	    background: #ffffff;
+	}
+
+	.speaker .section-title {
+	    color: #000;
+	}
+
+	#speaker-sort {
+	    font-size: 16px;
+	    color: #000 !important;
+	}
+
+	.speaker-item {
+	    margin-bottom: 50px;
+	}
+
+	.speaker-image {
+	    position: relative;
+	}
+
+	.speaker-item img {
+	    position: relative;
+	    width: 100% !important;
+	}
+
+	/*.speaker-item:hover .jury-image {
+		transform: scale(1.1);
+	}*/
+
+	.speaker-details {
+	    position: relative;
+	    bottom: 0;
+	    width: 100%;
+	    background: rgba(240, 182, 67, 0.8);
+	    min-height: 60px;
+	    padding: 5px 15px;
+	    font-size: 16px;
+	}
+
+	.speaker-name {
+	    display: block;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    color: #000;
+	}
+
+	.speaker-designation {
+	    font-size: 12px;
+	    text-align: left;
+	}
+
+	.speaker-item:nth-child(4n+1) {
+	    clear: left;
+	}
+
+	.popular_nomination h2 {
+	    font-size: 50px;
+	    text-transform: uppercase;
+	}
+
+	.popular_nominations {
+	    text-align: center;
+	}
+
+	.popular_nomination {
+	    float: left;
+	    cursor: pointer;
+	    margin-bottom: 15px;
+	}
+
+	.popular_nomination-row {
+	    border-bottom: 1px dashed #fff;
+	    padding-bottom: 40px;
+	}
+
+	#.popular_nomination.checked {
+	    border: 1px dashed #fff;
+	    border-radius: 20px;
+	}
+
+	.nav-tabs>li>a {
+	    font-size: 14px;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    color: #fff;
+	}
+
+	.nav-tabs>li>a:hover {
+	    color: #555;
+	}
+
+	#menu10 h4 {
+	    font-size: 16px;
+	}
+
+	.popular_nomination input {
+	    position: absolute;
+	    opacity: 0;
+	    cursor: pointer;
+	    height: 0;
+	    width: 0;
+	}
+
+	.popular_nomination .cat_input {
+	    height: 15px;
+	    width: 15px;
+	    background-color: #ffbd26;
+	    border-radius: 50%;
+	    display: block;
+	    margin: 0 auto;
+	}
+
+	/* On mouse-over, add a grey background color */
+
+	.popular_nomination:hover input~.cat_input {
+	    background-color: #ffbd26;
+	}
+
+	/* When the radio button is checked, add a blue background */
+
+	.popular_nomination input:checked~.cat_input {
+	    background-color: #2196F3;
+	}
+
+	.popular_nomination-row.voted .popular_nomination input:checked~.cat_input {
+	    background-color: #2196F3;
+	}
+
+	/** Accordance ***/
+
+	.popular_nomination-row.panel {
+	    padding: 0px;
+	    background: none;
+	    border: none;
+	    margin-bottom: 45px;
+	}
+
+	#.popular_nomination-row.panel>div {
+	    border: 1px dashed #ffbd26;
+	}
+
+	.popular_nomination-row .panel-heading {
+	    padding: 0;
+	    border: 0;
+	    background: none;
+	    margin-bottom: 30px;
+	}
+
+	.popular_nomination-row .panel-default>.panel-heading {
+	    background-color: unset;
+	    color: #ffbd26;
+	}
+
+	.popular_nomination-row .panel-title {
+	    max-width: 525px;
+	    margin: 0 auto;
+	    float: unset;
+	}
+
+	.popular_nomination-row .panel-title>a,
+	.popular_nomination-row .panel-title>a:active {
+	    display: block;
+	    padding: 15px;
+	    color: #ffbd26;
+	    font-size: 16px;
+	    text-transform: uppercase;
+	    letter-spacing: 1px;
+	    word-spacing: 3px;
+	    text-decoration: none;
+	    text-align: center;
+	    border: 1px dashed;
+	}
+
+	.popular_nomination-row .panel-heading a:before {
+	    font-family: 'Glyphicons Halflings';
+	    content: "\e114";
+	    float: right;
+	    transition: all 0.5s;
+	}
+
+	.popular_nomination-row .panel-heading.active a:before {
+	    -webkit-transform: rotate(180deg);
+	    -moz-transform: rotate(180deg);
+	    transform: rotate(180deg);
+	}
+
+	.popular_nomination-row .panel-body {
+	    padding: 15px 0px;
+	}
+
+	/*
+	.popular_nomination-row.voted .panel-heading {
+		background-color: #e6cf21;
+	}
+	*/
+
+	.popular_nomination-row.voted>div {
+	    border-color: #e6cf21;
+	}
+
+	/*.popular_nomination-row  .popular_nominations > div { padding: 0px; }*/
+
+	.popular_nomination-row .popular_nominations>div:nth-child(4n+1) {
+	    clear: both;
+	}
+
+	.popular_nomination h4 {
+	    font-size: 17px;
+	}
+
+	.popular_nomination h5 {
+	    font-size: 13px;
+	}
+
+	.voting-terms {
+	    margin: 50px 0;
+	    padding: 10px;
+	    border: 1px dashed;
+	}
+
+	.voting-form-container {
+	    float: left;
+	    margin: 25px 0;
+	    padding: 25px 0;
+	    clear: both;
+	}
+
+	.jury_nomination {
+	    height: 350px;
+	    position: relative;
+	}
+
+	.popular_nomination h4 {
+	    font-size: 15px;
+	}
+
+	.watch-entry-c {
+	    position: absolute;
+	    bottom: 0;
+	    width: 100%;
+	}
+
+	.watch-entry {
+	    padding: 7px;
+	    display: inline-block;
+	    border: 2px solid;
+	    border-radius: 15px;
+	    font-weight: 500;
+	    color: #fff;
+	}
+
+	.bottom-fixed {
+	    position: fixed;
+	    bottom: 0;
+	    width: 100%;
+	}
