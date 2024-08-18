@@ -250,7 +250,7 @@
 
 	.mobile-view .videoWrapper iframe,
 	.mobile-view .videoWrapper img {
-	    background: url(/assets/2024/images/mobile-screen.png) center center no-repeat;
+	    background: url(assets/2024/images/mobile-screen.png) center center no-repeat;
 	    box-sizing: border-box;
 	    background-size: contain;
 	}
