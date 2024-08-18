@@ -250,7 +250,7 @@
 
 	.mobile-view .videoWrapper iframe,
 	.mobile-view .videoWrapper img {
-	  background: url(./assets/2019/images/mobile-screen.png) center center no-repeat;
+	  background: url("./assets/2019/images/mobile-screen.png") center center no-repeat;
 	    box-sizing: border-box;
 	    background-size: contain;
 	}
@@ -291,7 +291,7 @@
 	div.desktop-wrapper iframe,
 	div.desktop-wrapper img {
 	    box-sizing: border-box;
-	    background: url(/assets/2019/images/mobile-screen.png) center center no-repeat;
+	    background: url("/assets/2019/images/mobile-screen.png") center center no-repeat;
 	    background-size: contain;
 	    padding: 5% 12.6% 5% 10.6%;
 	    position: absolute;
