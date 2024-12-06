@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Form</title>
+     <!-- Google Fonts -->
+     <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+
+     <!-- Font Awesome -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+ 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <!-- Custom CSS -->
+     <link href="./index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        /* General styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+          
+        }
+
+        .reg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url('/background.jpg') no-repeat center center/cover;
+            flex-direction: column;
+            color: #fff;
+            position: relative;
+        }
+
+        .text h1, .text p {
+            font-size: 3em;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            -webkit-text-stroke: 1px #fff;
+            color: transparent;
+            background: url('/back-text.png');
+            -webkit-background-clip: text;
+            background-size: cover;
+            animation: backText 20s linear infinite alternate;
+        }
+
+        @keyframes backText {
+            100% {
+                background-position: 2000px 0;
+            }
+        }
+
+        .text a p {
+            font-size: 2em;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .text a p:hover {
+            text-shadow: 0 0 10px #fff;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 700px;
+            height: 600px;
+            border: 5px solid rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+            background: transparent;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        /* Snowfall animation */
+        #snowfall div {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: #fff;
+            border-radius: 50%;
+            opacity: 0.8;
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(-100%);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100vh);
+                opacity: 0;
+            }
+        }
+    
+   
+      
+
+.fa-snowflake {
+	color: #ffffff;
+}
+
+.snow {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.snowflake {
+	animation-name: fall, shake;
+	animation-duration: 10s, 5s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 200px;
+	z-index: 7;
+	filter: blur(0.5px);
+}
+
+.snowflake1 {
+	animation-name: fall, shake;
+	animation-duration: 10s, 3s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 500px;
+	top: -100px;
+	animation-delay: 1s, 1s;
+	z-index: 7;
+	filter: blur(0.5px);
+}
+
+.snowflake2 {
+	animation-name: fall, shake;
+	animation-duration: 8s, 5s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 20px;
+	top: -100px;
+	animation-delay: 2s, 2s;
+	z-index: 7;
+	filter: blur(0.5px);
+}
+
+.snowflake3 {
+	animation-name: fall, shake;
+	animation-duration: 9s, 5s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	right: 170px;
+	top: -100px;
+	animation-delay: 3s, 5s;
+	z-index: 5;
+	filter: blur(0.7px);
+}
+
+.snowflake4 {
+	animation-name: fall, shake;
+	animation-duration: 15s, 5s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	right: 430px;
+	top: -100px;
+	animation-delay: 4s, 4s;
+	z-index: 5;
+}
+
+.snowflake5 {
+	animation-name: fall, shake;
+	animation-duration: 15s, 4s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 500px;
+	top: -100px;
+	animation-delay: 6s, 2s;
+	font-size: 2rem;
+	z-index: 6;
+	filter: blur(0.5px);
+}
+
+.snowflake6 {
+	animation-name: fall, shake;
+	animation-duration: 12s, 5s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 75px;
+	top: -100px;
+	animation-delay: 3.2s, 2s;
+	font-size: 2rem;
+	z-index: 6;
+}
+
+.snowflake7 {
+	animation-name: fall, shake;
+	animation-duration: 11s, 5s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 650px;
+	top: -100px;
+	animation-delay: 7.2s, 1s;
+	z-index: 7;
+}
+
+.snowflake8 {
+	animation-name: fall, shake;
+	animation-duration: 12s, 4s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 820px;
+	top: -100px;
+	animation-delay: 4s, 2s;
+	font-size: 2rem;
+	z-index: 5;
+	filter: blur(0.5px);
+}
+
+.snowflake9 {
+	animation-name: fall, shake;
+	animation-duration: 12s, 4s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 170px;
+	top: -100px;
+	animation-delay: 5s, 2s;
+	font-size: 2rem;
+	z-index: 5;
+	filter: blur(0.3px);
+}
+
+.snowflake10 {
+	animation-name: fall, shake;
+	animation-duration: 15s, 9s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 350px;
+	top: -100px;
+	animation-delay: 2.7s, 2s;
+	font-size: 3rem;
+	z-index: 7;
+}
+
+.snowflake11 {
+	animation-name: fall, shake;
+	animation-duration: 12s, 7s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	right: 400px;
+	top: -100px;
+	animation-delay: 0.5s, 2s;
+	font-size: 3rem;
+	z-index: 7;
+}
+
+.snowflake12 {
+	/*small*/
+	animation-name: fall, shake;
+	animation-duration: 12s, 5s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 470px;
+	top: -100px;
+	animation-delay: 5s, 2s;
+	z-index: 7;
+	filter: blur(0.9px);
+}
+
+.snowflake13 {
+	/*small*/
+	animation-name: fall, shake;
+	animation-duration: 10s, 5s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	right: 220px;
+	top: -100px;
+	animation-delay: 1s, 2s;
+	z-index: 7;
+	filter: blur(0.6px);
+}
+
+.snowflake14 {
+	/*small*/
+	animation-name: fall, shake;
+	animation-duration: 9s, 4s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	right: 140px;
+	top: -100px;
+	animation-delay: 2s, 2s;
+	z-index: 7;
+	filter: blur(0.5px);
+}
+
+@keyframes fall {
+	0% {
+		top: -10%;
+	}
+
+	100% {
+		top: 100%;
+	}
+}
+
+@keyframes shake {
+	0% {
+		transform: translatex(0);
+	}
+	50% {
+		transform: translatex(50px);
+	}
+	100% {
+		transform: translatex(0);
+	}
+}
+
+
+
+.mtsnow1 {
+	position: absolute;
+	content: "";
+	left: -50px;
+	bottom: -100px;
+	border-top: 0px solid transparent;
+	border-right: 50px solid transparent;
+	border-left: 50px solid transparent;
+	border-bottom: 100px solid #c1cfd7;
+}
+
+.snow-peak-1a {
+	/*sharp snow edge*/
+	position: absolute;
+	content: "";
+	bottom: -130px;
+	left: -45px;
+	border-top: 30px solid #c1cfd7;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+.snow-peak-1b {
+	position: absolute;
+	content: "";
+	bottom: -130px;
+	left: -7px;
+	border-top: 30px solid #c1cfd7;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+
+
+.snow2 {
+	position: absolute;
+	content: "";
+	left: -75px;
+	bottom: -98px;
+	border-top: 0px solid transparent;
+	border-right: 75px solid transparent;
+	border-left: 75px solid transparent;
+	border-bottom: 100px solid #e4e8eb;
+}
+
+.snow-peak-2a {
+	position: absolute;
+	content: "";
+	bottom: -110px;
+	left: -60px;
+	border-top: 20px solid #e4e8eb;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+.snow-peak-2b {
+	position: absolute;
+	content: "";
+	bottom: -120px;
+	left: -25px;
+	border-top: 30px solid #e4e8eb;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+.snow-peak-2c {
+	position: absolute;
+	content: "";
+	bottom: -110px;
+	right: -60px;
+	border-top: 20px solid #e4e8eb;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+.mt3 {
+	position: absolute;
+	content: "";
+	left: 280px;
+	bottom: 0;
+	border-top: 0px solid transparent;
+	border-right: 150px solid transparent;
+	border-left: 150px solid transparent;
+	border-bottom: 175px solid #094669;
+	z-index: 6;
+}
+
+.snow3 {
+	position: absolute;
+	content: "";
+	left: -70px;
+	bottom: -80px;
+	border-top: 0px solid transparent;
+	border-right: 70px solid transparent;
+	border-left: 70px solid transparent;
+	border-bottom: 90px solid #e4e8eb;
+}
+
+.snow-peak-3a {
+	position: absolute;
+	content: "";
+	bottom: -100px;
+	left: -60px;
+	border-top: 30px solid #e4e8eb;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+.snow-peak-3b {
+	position: absolute;
+	content: "";
+	bottom: -100px;
+	left: -20px;
+	border-top: 30px solid #e4e8eb;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+.snow-peak-3c {
+	position: absolute;
+	content: "";
+	bottom: -100px;
+	right: -20px;
+	border-top: 30px solid #e4e8eb;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+.snow-peak-3d {
+	position: absolute;
+	content: "";
+	bottom: -100px;
+	right: -60px;
+	border-top: 30px solid #e4e8eb;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+.mt4 {
+	position: absolute;
+	content: "";
+	left: 800px;
+	bottom: 0;
+	border-top: 0px solid transparent;
+	border-right: 150px solid transparent;
+	border-left: 150px solid transparent;
+	border-bottom: 250px solid #0b364f;
+	z-index: 3;
+}
+
+.snow4 {
+	position: absolute;
+	content: "";
+	left: -47px;
+	bottom: -75px;
+	border-top: 0px solid transparent;
+	border-right: 47px solid transparent;
+	border-left: 47px solid transparent;
+	border-bottom: 80px solid #c1cfd7;
+}
+
+.snow-peak-4a {
+	/*sharp snow edge*/
+	position: absolute;
+	content: "";
+	bottom: -100px;
+	left: -45px;
+	border-top: 30px solid #c1cfd7;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+} /* the sharp snow edge an is INVERTED triangle, so we want to see the the top border,not bottom. Top border should have a color. Other borders should be transparent*/
+
+.snow-peak-4b {
+	position: absolute;
+	content: "";
+	bottom: -100px;
+	left: -7px;
+	border-top: 30px solid #c1cfd7;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+.mt5 {
+	position: absolute;
+	content: "";
+	left: 500px;
+	bottom: 0;
+	border-top: 0px solid transparent;
+	border-right: 200px solid transparent;
+	border-left: 200px solid transparent;
+	border-bottom: 150px solid #094669;
+	z-index: 6;
+}
+
+.snow5 {
+	position: absolute;
+	content: "";
+	left: -100px;
+	bottom: -75px;
+	border-top: 0px solid transparent;
+	border-right: 100px solid transparent;
+	border-left: 100px solid transparent;
+	border-bottom: 75px solid #e4e8eb;
+}
+
+.snow-peak-5a {
+	position: absolute;
+	content: "";
+	bottom: -95px;
+	left: -60px;
+	border-top: 20px solid #e4e8eb;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+.snow-peak-5b {
+	position: absolute;
+	content: "";
+	bottom: -100px;
+	left: -25px;
+	border-top: 30px solid #e4e8eb;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+.snow-peak-5c {
+	position: absolute;
+	content: "";
+	bottom: -95px;
+	right: -60px;
+	border-top: 20px solid #e4e8eb;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+.mt6 {
+	position: absolute;
+	content: "";
+	left: 950px;
+	bottom: 0;
+	border-top: 0px solid transparent;
+	border-right: 150px solid transparent;
+	border-left: 150px solid transparent;
+	border-bottom: 175px solid #094669;
+	z-index: 6;
+}
+
+.snow6 {
+	position: absolute;
+	content: "";
+	left: -70px;
+	bottom: -80px;
+	border-top: 0px solid transparent;
+	border-right: 70px solid transparent;
+	border-left: 70px solid transparent;
+	border-bottom: 90px solid #e4e8eb;
+}
+
+.snow-peak-6a {
+	position: absolute;
+	content: "";
+	bottom: -100px;
+	left: -60px;
+	border-top: 30px solid #e4e8eb;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+.snow-peak-6b {
+	position: absolute;
+	content: "";
+	bottom: -100px;
+	left: -20px;
+	border-top: 30px solid #e4e8eb;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+.snow-peak-6c {
+	position: absolute;
+	content: "";
+	bottom: -100px;
+	right: -20px;
+	border-top: 30px solid #e4e8eb;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+.snow-peak-6d {
+	position: absolute;
+	content: "";
+	bottom: -100px;
+	right: -60px;
+	border-top: 30px solid #e4e8eb;
+	border-right: 25px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 25px solid transparent;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white lg-12">
+        <a class="navbar-brand px-4" href="#">
+            <img src="./assets/2024/ccmlogo.png" alt="Logo" class="img-fluid rotate-3d" style="height: 90px; border-radius: 50%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active mr-3">
+                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="archive.html">ARCHIVE</a>
+                </li>
+                <li class="nav-item dropdown mr-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CAPECOMORIN AWARDS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                        <a class="dropdown-item" href="ccm22.html">CCM 2022</a>
+                        <a class="dropdown-item" href="ccm23.html">CCM 2023</a>
+                        <a class="dropdown-item" href="ccm24.html">CCM 2024</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown mr-3">
+                    <p class="nav-link dropdown-toggle" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CREATOR MEETUP
+                    </p>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <a class="dropdown-item" href="#">2022</a>
+                        <a class="dropdown-item" href="#">2023</a>
+                        <a class="dropdown-item" href="#">2024</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="snowfall">
+        
+    <!-- Background music -->
+    <audio autoplay loop>
+        <source src="/assets/2024/jingle-bells.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Snowfall container -->
+ </div>
+
+    <section class="reg">
+    
+        <section class="snow">
+
+            <div class="snowflake"><i class="fa-regular fa-snowflake"></i></div>
+            <div class="snowflake1"><i class="fa-regular fa-snowflake"></i></div>
+            <div class="snowflake2"><i class="fa-regular fa-snowflake"></i></div>
+            <div class="snowflake3"><i class="fa-regular fa-snowflake"></i></div>
+            <div class="snowflake4"><i class="fa-regular fa-snowflake"></i></div>
+            <div class="snowflake5"><i class="fa-regular fa-snowflake"></i></div>
+            <div class="snowflake6"><i class="fa-regular fa-snowflake"></i></div>
+            <div class="snowflake7"><i class="fa-regular fa-snowflake"></i></div>
+            <div class="snowflake8"><i class="fa-regular fa-snowflake"></i></div>
+            <div class="snowflake9"><i class="fa-regular fa-snowflake"></i></div>
+            <div class="snowflake10"><i class="fa-solid fa-snowflake"></i></div>
+            <div class="snowflake11"><i class="fa-solid fa-snowflake"></i></div>
+            <div class="snowflake12"><i class="fa-regular fa-snowflake"></i></div>
+            <div class="snowflake13"><i class="fa-regular fa-snowflake"></i></div>
+            <div class="snowflake14"><i class="fa-regular fa-snowflake"></i></div>
+        </section>
+       
+        <div class="text">
+            <div class="text" style="display: flex; align-items: center; justify-content: center; padding: 20px;">
+                <img src="./assets/2024/ccmlogo.png" alt="Logo" class="img-fluid rotate-3d" style="height: 90px; border-radius: 50%;">
+            </a>
+            </div>
+            <div class="" style="display: flex; align-items: center; justify-content: center">
+         <h1>CCM X-Mas Meetup</h1>
+        </div>
+       
+         
+        <iframe 
+            src="https://docs.google.com/forms/d/e/1FAIpQLSf_DC9-5_39AP4iPeewn8MoC4NP5nygiAq-CjAgevNB--AUCQ/viewform" 
+            allowtransparency="true">
+        </iframe>
+       
+    </section>
+ <!-- footer section -->
+<!-- footer.php -->
+<footer class="footer bg-light pt-4 p-4">
+    <div class="container">
+      <div class="row">
+        <!-- Contact Information -->
+        <div class="col-md-6 mb-4">
+          <h5 class="font-weight-bold">CONTACT</h5>
+          <p>Phone: +91 8300767907</p>
+          <p>Email: <a href="mailto:capecomorinmedia@gmail.com">capecomorinmedia@gmail.com</a></p>
+          <p>Office address:<br>
+          Opp Royal Cars ChirayanKuzhi,Marthandam
+          </p>
+          <!-- Social Media Icons -->
+          <div class="social-icons mt-3">
+            <a href="#" class="mr-3"><i class="fab fa-instagram fa-2x text-danger"></i></a>
+            <a href="#" class="mr-3"><i class="fab fa-facebook-f fa-2x text-primary"></i></a>
+            <a href="#"><i class="fab fa-whatsapp fa-2x text-success"></i></a>
+          </div>
+        </div>
+        
+        <!-- Logo Section -->
+        <div class="col-md-6 text-center">
+        <img src="./assets/2024/ccmlogo.png" alt="Logo"  class="img-fluid rotate-3d"  style="height: 250px; border-radius: 50%;"> <!-- Adjust the height as needed -->
+        </div>
+      </div>
+      
+      <!-- Bottom Text and Links -->
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="mb-0">
+            &copy; 2025 by CapeComorin Media. Developed by <a href="https://amanikandan1997.github.io/ReactJs_Portfolio/" target="_blank">Manikandan U K I</a>
+          </p>
+          <p class="mb-0">
+            <a href="#" class="mr-3">Disclaimer</a> | <a href="#">Privacy Policy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script>
+        // JavaScript for snowfall effect
+        const snowContainer = document.getElementById('snowfall');
+
+        for (let i = 0; i < 100; i++) {
+            const snow = document.createElement('div');
+            const size = Math.random() * 3 + 2; // Snowflake size between 2px to 5px
+            snow.style.width = `${size}px`;
+            snow.style.height = `${size}px`;
+            snow.style.left = Math.random() * 100 + '%';
+            snow.style.opacity = Math.random() * 0.8 + 0.2; // Random opacity
+            snow.style.animationDuration = Math.random() * 5 + 3 + 's'; // Duration between 3s to 8s
+            snow.style.animationDelay = Math.random() * 3 + 's';
+            snowContainer.appendChild(snow);
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

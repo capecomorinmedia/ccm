@@ -1,356 +1,189 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="./images/CCM LOGO 3d2.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="Generator" content="EditPlus">
+    <meta name="Author" content="CCM">
+    <meta name="Keywords" content="CCM-Awards">
+    <meta name="Description" content="CCM.">
+    <meta property="og:title" content="CapeComorinMedia" />
+    <meta property="og:description" content="Cape Comorin Media" />
+    <meta property="og:image" content="./assets/2024/favicon/favicon-32x32.png" />
+    <title>CapeComorin Media</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="./index.css" rel="stylesheet">
 </head>
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/color.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fontawesome.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/prettyPhoto.css">
-    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.css">
-    <!--Rev Slider Start-->
-    <link rel="stylesheet" href="js/rev-slider/css/settings.css" type='text/css' media='all' />
-    <link rel="stylesheet" href="js/rev-slider/css/layers.css" type='text/css' media='all' />
-    <link rel="stylesheet" href="js/rev-slider/css/navigation.css" type='text/css' media='all' />
-
-    <!--Rev Slider End-->
-    <title>CCM</title>
-    <style>
-        /* Ensure image aligns well and animates */
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Animation classes */
-.animate__animated {
-    --animate-duration: 1s;
-}
-
-.animate__fadeInRight {
-    animation: fadeInRight 1s ease-in-out;
-}
-
-.animate__fadeInLeft {
-    animation: fadeInLeft 1s ease-in-out;
-}
-
-/* Add keyframes for animations */
-@keyframes fadeInRight {
-    from {
-        opacity: 0;
-        transform: translateX(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        transform: translateX(-30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-    </style>
-</head>
-
 <body>
-      <!-- Match Counter Start -->
-  <!-- <div class="h3-match-counter">
-    <button class="hide"><i class="fa fa-window-close" aria-hidden="true"></i></button>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand px-4" href="#">
+            <img src="./assets/2024/ccmlogo.png" alt="Logo" class="img-fluid rotate-3d" style="height: 90px; border-radius: 50%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active mr-3">
+                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="archive.html">ARCHIVE</a>
+                </li>
+                <li class="nav-item dropdown mr-3">
+                    <p class="nav-link dropdown-toggle" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CAPECOMORIN AWARDS
+                    </p>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                      <a class="dropdown-item" href="ccm22.html">CCM 2022</a>
+                      <a class="dropdown-item" href="ccm23.html">CCM 2023</a>
+                      <a class="dropdown-item" href="ccm24.html">CCM 2024</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown mr-3">
+                    <p class="nav-link dropdown-toggle" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CREATOR MEETUP
+                    </p>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <a class="dropdown-item" href="#">2022</a>
+                        <a class="dropdown-item" href="#">2023</a>
+                        <a class="dropdown-item" href="#">2024</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="banner">
+    
+      <div class="container">
+    <div class="row text-center">
+    <h1 class="col-12">About CCM Awards</h1>
+
+    <div class="col-md-12 d-flex justify-content-center">
+      <div class="coin p-6">
+        <img src="./images/CCM LOGO 3d2.png" class="img-fluid" alt="Coin Image" style="width: 400px; height: 400px;">
+      </div>
+      
+    </div>
+    <div class="row text-center">
+
+    <h3 class="col-12">More Than Just Awards.</h3>
+    <p>
+Founded in 2021, the CapeComorin Video then 2022 CapeComorin Digital Awards is a prestigious event that holds opportunity to bring together the most brilliant, talented and active Tamilnadu content creators across various fields and multiple platforms, in aim to celebrate their remarkable achievements.
+
+CapeComorin Digital Awards is a thrilling experience to showcase these immacble talents, and offer them the recognition and support they deserve for their entertaining, inspirational and educating content.</p>
+  </div>
+    </div>
+    
+</div>
+
+
+    
+</section>
+<section class="banner">
+    
     <div class="container">
-      <div class="row">
-        <ul>
-          <li class="col-md-1">
-            <div class="team-left"><img src="images/kd.png"style="width: 200px; height: 120px;" alt=""></div>
-          </li>
-          <li class="col-md-3">
-            <p class="mdate-time"> 01 November. 2024 <strong style="color: goldenrod;">04:00 PM GMT+</strong> </p>
-          </li>
-          <li class="col-md-4">
-            
-          </li>
-          <li class="col-md-3">
-            <p class="match-loc" style="color: goldenrod;"><i class="fa fa-location-arrow" aria-hidden="true"></i> Location Not found</p>
-          </li>
-          <li class="col-md-1">
-            <div class="team-right"><img src="images/CCM LOGO 3d2.png" alt="" style="width: 80px; height: 80px;"> <strong style="color: goldenrod;">KumariDay2024 </strong></div>
-          </li>
-        </ul>
+  <div class="row text-center">
+    <h1 class="col-12">About CCM Team</h1>
+
+    <div class="col-md-12 d-flex justify-content-center">
+      <div class="coin p-6">
+        <img src="./images/ccm-team.jpeg" class="img-fluid" alt="Coin Image" style="width: 800px; height: 500px;">
+      </div>
+      
+    </div>
+    <p>hhuikjhukjg</p>
+  </div>
+</div>
+
+
+    
+</section>
+
+<!-- home Banner Section End -->
+
+<!-- Registration Box Section and Dummy About Section -->
+<section class="banner2">
+<div class="card">
+
+<div class="col-12 col-md-12 gradient-box d-flex flex-column justify-content-between align-items-center ">
+
+	
+	
+	
+
+<p>Start Your Self / Favourite Nomination</p>
+    <a href="Register.php" class="glass-button  text-decoration-none text-white">Submit Your Nomination</a>
+    
+</div>
+
+
+            </div>
+      
+
+    
+
+    </div>
+</section>
+<footer class="footer bg-light pt-4">
+  <div class="container">
+    <div class="row">
+      <!-- Contact Information -->
+      <div class="col-md-6 mb-4">
+        <h5 class="font-weight-bold">CONTACT</h5>
+        <p>Phone: +91 8300767907</p>
+        <p>Email: <a href="mailto:capecomorinmedia@gmail.com">capecomorinmedia@gmail.com</a></p>
+        <p>Office address:<br>
+        Opp Royal Cars ChirayanKuzhi,Marthandam
+        </p>
+        <!-- Social Media Icons -->
+        <div class="social-icons mt-3">
+          <a href="#" class="mr-3"><i class="fab fa-instagram fa-2x text-danger"></i></a>
+          <a href="#" class="mr-3"><i class="fab fa-facebook-f fa-2x text-primary"></i></a>
+          <a href="#"><i class="fab fa-whatsapp fa-2x text-success"></i></a>
+        </div>
+      </div>
+      
+      <!-- Logo Section -->
+      <div class="col-md-6 text-center">
+      <img src="./assets/2024/ccmlogo.png" alt="Logo"  class="img-fluid rotate-3d"  style="height: 250px; border-radius: 50%;"> <!-- Adjust the height as needed -->
       </div>
     </div>
-  </div> -->
-  <!-- Match Counter Start --> 
-  
-    <!--Wrapper Start-->
-    <div class="wrapper">
-        <!--Header Start-->
-        <header id="main-header" class="main-header">
-            <!--topbar-->
-            <div class="topbar">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <ul class="topsocial">
-                                <li><a href="#" class="fb"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                                <li><a href="#" class="tw"><i class="fa fa-times" aria-hidden="true"></i></i></a></li>
-                                <li><a href="#" class="insta"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                <li><a href="#" class="in"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                                <li><a href="#" class="yt"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <ul class="toplinks">
-                               
-                                
-                                <i class="fa fa-user-o" aria-hidden="true"></i><a href="#">My Account</a> </li>
-                                <li class="search-btn"> <a class="search-icon" href="#search"><i class="fa fa-search" aria-hidden="true"></i></a> </li>
-                            </ul>
-
-                            <div id="search">
-                                <button type="button" class="close">×</button>
-                                <form class="search-overlay-form">
-                                    <input type="search" value="" placeholder="type keyword(s) here" />
-                                    <button type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i></button>
-                                </form>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--topbar end-->
-            <!--Logo + Navbar Start-->
-            <div class="logo-navbar" style="background-color:#0c1121
-            ;">
-                  <div class="container">
-                    <div class="row">
-                        <div class="col-md-2 col-sm-5">
-                            <div class="logo"><a href="index.html"><img src="./images/CCM LOGO 3d2.png" alt="" style="width: 80px; height: 80px; "></a></div>
-                        </div>
-                        <div class="col-md-10 col-sm-7">
-                            <nav class="main-nav" style="padding: 10px;">
-                                <ul>
-                                       
-                                    <li class="nav-item"> <a href="index.html">Home</a> </li>
-                                    
-                                    <li class="nav-item"> <a href="About.html">About</a> </li>
-                                    <li class="nav-item"> <a href="Nomination.html">Nomination</a> </li>
-                                    
-                                         <li class="nav-item"> <a href="Event.html">Pricing</a> </li>
-                                     
-                                         
-                                    
- 
-                                         <li class="nav-item"> <a href="Contact.html">contact</a> </li>
-                                       
-                                     </li>
-                                     <li class="nav-item buy-ticket"> <a href="./Bookticket.html" style="background-color: goldenrod;"> Our Event</a> </li>
-                                 </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Logo + Navbar End-->
-        </header>
-        <!--Header End-->
-        <div class="container mt-5">
-            <!-- About Us Section -->
-            <div class="row mb-5">
-                <div class="col-md-6">
-                    <h1 class="text-center">About Us</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, ex animi temporibus quae dolores recusandae repellendus ullam sed quod rerum quisquam architecto voluptates fugit soluta ut nulla eligendi cum dolorum.</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="./images/cc2 (3).jpeg" alt="About Us Image" class="img-fluid animate__animated animate__fadeInRight">
-                </div>
-            </div>
-            <!-- Our Mission Section -->
-            <div class="row mb-5">
-                <div class="col-md-6">
-                    <img src="./images/cc2 (1).jpeg" alt="Our Mission Image" class="img-fluid animate__animated animate__fadeInLeft">
-                </div>
-                <div class="col-md-6">
-                    <h1 class="text-center">Our Mission</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, ex animi temporibus quae dolores recusandae repellendus ullam sed quod rerum quisquam architecto voluptates fugit soluta ut nulla eligendi cum dolorum.</p>
-                </div>
-            </div>
-            <!-- Our Vision Section -->
-            <div class="row mb-5">
-                <div class="col-md-6">
-                    <h1 class="text-center">Our Vision</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, ex animi temporibus quae dolores recusandae repellendus ullam sed quod rerum quisquam architecto voluptates fugit soluta ut nulla eligendi cum dolorum.</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="./images/cc2 (2).jpeg" alt="Our Vision Image" class="img-fluid animate__animated animate__fadeInRight">
-                </div>
-            </div>
-        </div>
-        <!-- Main Content End -->
-        <!--Main Footer Start-->
-        <footer class="wf100 main-footer">
-            <div class="container">
-                <div class="row">
-                    <!--Footer Widget Start-->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget about-widget"> <img src="images/CCM LOGO 3d2.png" alt="" style="width: 100px; height: 100px; ">
-                            <p> Cape Comorin Team</p>
-                            <address>
-          <ul>
-            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Kanniyakumari,india</li>
-            <li><i class="fa fa-phone" aria-hidden="true"></i>+91 83007 67907</li>
-            <li><i class="fa fa-envelope-o" aria-hidden="true"></i>capecomorinmedia@gmail.com </li>
-          </ul>
-          </address>
-                        </div>
-                    </div>
-                    <!--Footer Widget End-->
-                    <!--Footer Widget Start-->
-                   <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                             <!-- <h4>About Soccer</h4>
-                            <!-- <ul class="footer-links">
-                                <li><a href="#"><i class="fas fa-angle-double-right"></i> About Club</a></li>
-                                <li><a href="#"><i class="fas fa-angle-double-right"></i> Matche Schedules</a></li>
-                                <li><a href="#"><i class="fas fa-angle-double-right"></i> Groups Table</a></li>
-                                <li><a href="#"><i class="fas fa-angle-double-right"></i> Teams</a></li>
-                                <li><a href="#"><i class="fas fa-angle-double-right"></i> Statistics</a></li>
-                                <li><a href="#"><i class="fas fa-angle-double-right"></i> Qualifiers</a></li>
-                                <li><a href="#"><i class="fas fa-angle-double-right"></i> Ticket Bookings</a></li>
-                                <li><a href="#"><i class="fas fa-angle-double-right"></i> Shoes</a></li>
-                                <li><a href="#"><i class="fas fa-angle-double-right"></i> T-Shirts</a></li>
-                                <li><a href="#"><i class="fas fa-angle-double-right"></i> Sports Wear</a></li>
-                                <li><a href="#"><i class="fas fa-angle-double-right"></i> Accessories</a></li>
-                                <li><a href="#"><i class="fas fa-angle-double-right"></i> Shop</a></li>
-                                <li><a href="#"><i class="fas fa-angle-double-right"></i> Contact us</a></li>
-                                <li><a href="#"><i class="fas fa-angle-double-right"></i> Media Room</a></li>
-                            </ul> -->
-                        </div>
-                    </div>
-                    <!--Footer Widget End-->
-                    <!--Footer Widget Start-->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <h4>Recent Instagram</h4>
-                            <ul class="instagram">
-                                <li><img src="images/cc2 (1).jpeg" alt=""></li>
-                                <li><img src="images/cc2 (2).jpeg" alt=""></li>
-                                <li><img src="images/cc2 (3).jpeg" alt=""></li>
-                                <li><img src="images/CCM LOGO 3d2.png" alt=""></li>
-                                <li><img src="images/kd.png" alt=""></li>
-                                <li><img src="images/cc2 (3).jpeg" alt=""></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--Footer Widget End-->
-                    <!--Footer Widget Start-->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <h4>Get Updated</h4>
-                            <p> Sign up to Get Updated & latest offers with our Newsletter. </p>
-                            <ul class="newsletter">
-                                <li>
-                                    <input type="text" class="form-control" placeholder="Your Name">
-                                </li>
-                                <li>
-                                    <input type="text" class="form-control" placeholder="Your Emaill Address">
-                                </li>
-                                <li> <strong>We respect your privacy</strong>
-                                    <button><span>Subscribe</span></button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--Footer Widget End-->
-                </div>
-            </div>
-            <div class="container brtop">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <p class="copyr"> All Rights Reserved of CapeComorin Media © 2024, Design By: <a href="https://amanikandan1997.github.io/ReactJs_Portfolio/" style="color: goldenrod;">Manikandan U K I</a> </p>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                       
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--Main Footer End-->
+    
+    <!-- Bottom Text and Links -->
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="mb-0">
+          &copy; 2025 by CapeComorin Media. Developed by <a href="https://amanikandan1997.github.io/ReactJs_Portfolio/" target="_blank">Manikandan U K I</a>
+        </p>
+        <p class="mb-0">
+          <a href="#" class="mr-3">Disclaimer</a> | <a href="#">Privacy Policy</a>
+        </p>
+      </div>
     </div>
-    <!--Wrapper End-->
-    <script>
-        // Target date and time (Nov 1, 2024, 00:00:00)
-        const targetDate = new Date('November 1, 2024 00:00:00').getTime();
-
-        function updateTimer() {
-            const now = new Date().getTime();
-            const timeLeft = targetDate - now;
-
-            if (timeLeft <= 0) {
-                document.getElementById('countdown').textContent = 'Kumari Day Start!';
-                clearInterval(timerInterval);
-                return;
-            }
-
-            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-            document.getElementById('countdown').textContent = 
-                `${String(days).padStart(2, '0')} days ${String(hours).padStart(2, '0')} hr ${String(minutes).padStart(2, '0')} min ${String(seconds).padStart(2, '0')} sec`;
-        }
-
-        // Update the timer every second
-        const timerInterval = setInterval(updateTimer, 1000);
-
-        // Initial call to display the timer immediately
-        updateTimer();
-    </script>
-     
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-    <!-- Optional JavaScript -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/mobile-nav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.countdown.js"></script>
-    <script src="js/custom.js"></script>
-    <!--Rev Slider Start-->
-    <script type="text/javascript" src="js/rev-slider/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="js/rev-slider/js/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="js/rev-slider.js"></script>
-    <script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.migration.min.js"></script>
-    <script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.video.min.js"></script>
+  </div>
+</footer>
 </body>
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>

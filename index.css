@@ -1,0 +1,284 @@
+/* home banner section */
+.banner {
+    background-image: url('assets/2024/back.avif'); /* Use the correct path to your image */
+    background-size: cover;       /* Ensures the image covers the entire section */
+    background-position: center;  /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh;                /* Sets the height of the banner to full viewport height */
+    display: flex;                /* Flexbox to center content */
+    align-items: center;          /* Vertically centers the content */
+    justify-content: center;      /* Horizontally centers the content */
+    color: white;                 /* Text color for readability */
+}
+
+/* home banner section End*/
+
+/* navbar header section */
+/* Bold font for all navbar items */
+.navbar-nav .nav-link {
+    font-weight: bold; /* Makes the text bold */
+    font-size: 18px;
+    margin-right: 8px;
+}
+/* Add margin to the right of the Home link */
+
+
+
+/* Centering the navbar items */
+.navbar-nav {
+    margin: 0 auto; /* Centers the navbar items */
+    display: flex;  /* Use flex to center the content */
+    justify-content: center; /* Ensures items are centered */
+}
+
+/* Center dropdown items */
+.navbar-nav .dropdown-menu {
+    text-align: center; /* Centers the text inside the dropdown */
+}
+
+/* Adjust the logo margin for better centering with navbar items */
+.navbar-brand img {
+    margin-right: auto; /* Pushes the logo to the left */
+   
+}
+/* CSS for the logo */
+.navbar-brand img {
+  background: none; /* Remove background color */
+  box-shadow: none; /* Remove any box shadow */
+}
+
+
+
+/* navbar header section end */
+
+
+/* Register Box section  */
+.banner2 {
+    background-image: url('assets/2024/back.avif'); /* Use the correct path to your image */
+    background-size: cover;       /* Ensures the image covers the entire section */
+    background-position: center;  /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh;                /* Sets the height of the banner to full viewport height */
+          /* Horizontally centers the content */
+    color: white;                 /* Text color for readability */
+}
+.card
+{
+  background: radial-gradient(circle at 94.35384114583333% 89.61588541666666%, #370876 0%, 50%, rgba(55, 8, 118, 0) 100%), radial-gradient(circle at 58.333333333333336% 80%, rgba(55, 8, 118, 0.99) 0%, 25%, rgba(55, 8, 118, 0) 50%), radial-gradient(circle at 22.5% 21.666666666666668%, #8B0000 0%, 42%, rgba(139, 0, 0, 0) 70%), radial-gradient(circle at 93.6865234375% 11.42578125%, #370876 0%, 42%, rgba(55, 8, 118, 0) 70%), radial-gradient(circle at 48.9013671875% 49.521484375%, #FFFFFF 0%, 100%, rgba(255, 255, 255, 0) 100%); 
+ 
+ 
+}
+/* Linear gradient background for the box */
+.gradient-box {
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  display: flex;
+  justify-content: center; /* Centers the button horizontally */
+  align-items: center; /* Centers the button vertically */
+  height: 100vh; /* Optional: Makes sure the container takes full viewport height */
+}
+
+/* Gradient background for the button (blue, rose, dark blue) */
+.glass-button {
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 20px;
+  color: rgb(81, 33, 143);
+  padding: 12px 30px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  backdrop-filter: blur(10px); /* Glass effect */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+/* Hover effect for the button */
+.glass-button:hover {
+  background: linear-gradient(45deg, #c94b59, #1e3c72, #2a5298); /* Inverse gradient on hover */
+  border-color: rgba(255, 255, 255, 0.5);
+  color: #ffffff; /* Light blue text on hover */
+}
+@media (max-width: 768px) {
+  .gradient-box {
+    padding: 20px;
+  }
+  .glass-button {
+    width: 100%;
+    text-align: center;
+  }}
+
+
+  .card2
+{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+ 
+ 
+}
+
+
+/* Container for the rotating effect */
+.rotate-3d {
+  animation: rotate3d 5s ; /* 5s for duration, infinite loop */
+  transform-style: preserve-3d;
+}
+
+/* Keyframes for 3D rotation */
+@keyframes rotate3d {
+  0% {
+    transform: rotateY(0deg);
+  }
+  25% {
+    transform: rotateY(90deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  75% {
+    transform: rotateY(270deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+/* Optional: You can add some shadow or perspective to make the 3D effect more prominent */
+img {
+  perspective: 1000px;
+ /* Optional shadow effect */
+}
+/* Register Box section end */
+
+/* sponsor section */
+.spons{
+  background: black;
+  color: antiquewhite;
+ 
+ 
+ 
+}
+/* sponsor section */
+
+/* footer.css */
+.footer {
+  background-color: #f8f9fa; /* Light background color */
+  color: #333; /* Text color */
+  padding: 20px 0;
+  border-top: 1px solid #e7e7e7;
+}
+
+.footer h5 {
+  font-weight: 700; /* Bold font */
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+}
+
+
+/* From Uiverse.io by Cksunandh */ 
+.m2 {
+  position: relative;
+  width: 20vmin; /* Reduced size */
+  height: 20vmin; /* Reduced size */
+  background: linear-gradient(135deg, #1e1e24 10%, #050505 60%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  animation: gradient-shift 5s ease-in-out infinite; /* Faster animation */
+  background-size: 200% 200%; /* Gradient shift */
+}
+
+.m2 .logo {
+  display: inline-block;
+  vertical-align: baseline;
+  user-select: none;
+  font-size: 5vmin; /* Smaller font size */
+  color: white;
+  background-image: linear-gradient(to right, #626262, #fff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+}
+
+.m2 .logo svg {
+  margin-right: -1vmin;
+  width: 5vmin; /* Smaller SVG size */
+  height: 5vmin; /* Smaller SVG size */
+}
+
+.m2::before,
+.m2::after {
+  --size: 5px; /* Reduced glow size */
+  content: "";
+  position: absolute;
+  top: calc(var(--size) / -2);
+  left: calc(var(--size) / -2);
+  width: calc(100% + var(--size));
+  height: calc(100% + var(--size));
+  background: radial-gradient(circle at 0 0, hsl(27deg 93% 60%), transparent),
+    radial-gradient(circle at 100% 0, #00a6ff, transparent),
+    radial-gradient(circle at 0 100%, #ff0056, transparent),
+    radial-gradient(circle at 100% 100%, #6500ff, transparent);
+}
+
+.m2::after {
+  --size: 2px; /* Reduced inner glow size */
+  z-index: -1;
+}
+
+.m2::before {
+  --size: 10px; /* Reduced outer glow size */
+  z-index: -2;
+  filter: blur(2vmin); /* Reduced blur */
+  animation: blur-animation 3s ease-in-out alternate infinite; /* Faster blur animation */
+}
+
+/* Faster blur animation */
+@keyframes blur-animation {
+  to {
+    filter: blur(3vmin);
+    transform: scale(1.05);
+  }
+}
+
+/* Faster gradient animation */
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
