@@ -26,6 +26,82 @@
 
     <!-- Custom CSS -->
     <link href="./index.css" rel="stylesheet">
+    <style>
+      
+      
+
+        .reg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url('background.jpg') no-repeat center center/cover;
+            flex-direction: column;
+            color: #fff;
+            position: relative;
+        }
+
+        .text h1, .text p {
+            font-size: 3em;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            -webkit-text-stroke: 1px #fff;
+            color: transparent;
+            background: url('back-text.png');
+            -webkit-background-clip: text;
+            background-size: cover;
+            animation: backText 20s linear infinite alternate;
+        }
+
+        @keyframes backText {
+            100% {
+                background-position: 2000px 0;
+            }
+        }
+
+        .text a p {
+            font-size: 2em;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .text a p:hover {
+            text-shadow: 0 0 10px #fff;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }
+    </style>
+    <style>
+        /* Custom CSS for the card */
+.custom-card {
+  max-width: 50%; /* Ensure the card takes full width of the container */
+  height: 20px; /* Allow height to adjust based on content */
+  overflow: hidden; /* Prevent overflow if content overflows the card */
+}
+
+.instagram-media {
+  width: 50% !important; /* Ensure the Instagram embed takes up full width of the card */
+  height: 350px !important; /* Maintain aspect ratio for the embedded post */
+}
+
+.instagram-media iframe {
+  width: 100% !important; /* Ensure iframe width scales to 100% */
+  height: 350px; /* Set a fixed height for the embedded post (adjustable) */
+}
+
+/* Optional: Add a fixed height to the card */
+.custom-card {
+  height: 350px; /* Set a fixed height for the card */
+  overflow: hidden; /* Hide overflow content */
+}
+
+/* Optional: Add a border radius and padding */
+.custom-card {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+    </style>
 </head>
 <body>
     <!-- Navbar -->
@@ -53,9 +129,10 @@
                         CAPECOMORIN AWARDS
                     </p>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                        <a class="dropdown-item" href="ccm22.html">CCM 2022</a>
-                        <a class="dropdown-item" href="ccm23.html">CCM 2023</a>
                         <a class="dropdown-item" href="ccm24.html">CCM 2024</a>
+                      <a class="dropdown-item" href="ccm23.html">CCM 2023</a>
+                     <a class="dropdown-item" href="ccm22.html">CCM 2022</a>
+                       
                     </div>
                 </li>
                 <li class="nav-item dropdown mr-3">
@@ -72,33 +149,305 @@
         </div>
     </nav>
 
+
     <section class="banner">
-    
-      <div class="container">
-    <div class="row text-center">
-    <h1 class="col-12">About CCM Awards</h1>
-
-    <div class="col-md-12 d-flex justify-content-center">
-      <div class="coin p-6">
-        <img src="./images/CCM LOGO 3d2.png" class="img-fluid" alt="Coin Image" style="width: 400px; height: 400px;">
-      </div>
-      
+        <div class="container">
+            
+            <div class="row">
+            <div class="col-md-12">
+                <div class="text">
+                    <div class="text" style="display: flex; align-items: center; justify-content: center; ">
+                        <img src="./assets/2024/ccmlogo.png" alt="Logo" class="img-fluid rotate-3d" style="height: 90px; border-radius: 50%;">
+                    </a>
+                    </div>
+                    <h1 class="col-12 pt-6"> CCM Awards 2024</h1>
+              
     </div>
-    <div class="row text-center">
+    <div class="col-md-12">
+        <div class="container">
+            <!-- set1 -->
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card2">
+                      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCDfo_ySbSN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                    </div>
+                  </div>
+              
+              
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCDhM4AS4oQ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Repeat the structure 25 times -->
+                <!-- Add more cards as needed -->
+              
+                <!-- Card 25 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card2">
+                      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCUg80sTEyb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                    </div>
+                  </div>
+              </div>
+                  <!-- set2 -->
+            <div class="row">
+                <!-- Card 1 -->
+               
+                <div class="col-md-4 mb-4">
+                    <div class="card2">
+                      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCDhqD5yTdR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                    </div>
+                  </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card2">
+                      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCQuxwFSt3n/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                    </div>
+                  </div>
+              
+                <!-- Repeat the structure 25 times -->
+                <!-- Add more cards as needed -->
+              
+                <!-- Card 25 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCDiJ99yNOU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              </div>
+    <!-- set3 -->
 
-    <h3 class="col-12">More Than Just Awards.</h3>
-    <p>
-Founded in 2021, the CapeComorin Video then 2022 CapeComorin Digital Awards is a prestigious event that holds opportunity to bring together the most brilliant, talented and active Tamilnadu content creators across various fields and multiple platforms, in aim to celebrate their remarkable achievements.
+              <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCN6TqdyWWL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCN6r6Uysrb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Repeat the structure 25 times -->
+                <!-- Add more cards as needed -->
+              
+                <!-- Card 25 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCN7N1JSvLD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              </div>
+    <!-- set4 -->
 
-CapeComorin Digital Awards is a thrilling experience to showcase these immacble talents, and offer them the recognition and support they deserve for their entertaining, inspirational and educating content.</p>
-  </div>
-    </div>
+              <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCOBdYWyI4d/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCOE68nSkaX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Repeat the structure 25 times -->
+                <!-- Add more cards as needed -->
+              
+                <!-- Card 25 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCObua7Mbpn/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              </div>
+    <!-- set5 -->
+
+              <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCOdh6oSKgw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCQb8ePyXOD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Repeat the structure 25 times -->
+                <!-- Add more cards as needed -->
+              
+                <!-- Card 25 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCQcwQQyaHp/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              </div>
+    <!-- set6 -->
+              <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCQo3bxyBIv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCQrUSYSzN9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Repeat the structure 25 times -->
+                <!-- Add more cards as needed -->
+              
+                <!-- Card 25 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCQsD2WSFBN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              </div>
+    <!-- set7 -->
+             
+                 <!-- set8 --> 
+              <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCQvPMDyBGM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCQwPmgy1Ug/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Repeat the structure 25 times -->
+                <!-- Add more cards as needed -->
+              
+                <!-- Card 25 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCQw_WiST3x/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              </div>
+    <!-- set9-->
+              <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCRG-JayDyI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCRHri3SiL0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Repeat the structure 25 times -->
+                <!-- Add more cards as needed -->
+              
+                <!-- Card 25 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCRIX4RSCIU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              </div>
+              <!-- set10-->
+              <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCRI5S-yMfF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCRJXjFSWKR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Repeat the structure 25 times -->
+                <!-- Add more cards as needed -->
+              
+                <!-- Card 25 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCRJxWuyeG2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              </div>
+               <!-- set11-->
+               <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCRKFY_yT7-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCRMP_ayIZs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              
+                <!-- Repeat the structure 25 times -->
+                <!-- Add more cards as needed -->
+              
+                <!-- Card 25 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card2">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCUgjcDz6og/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+                  </div>
+                </div>
+              </div>
+               <!-- set12-->
+               
+             
+          </div>
+
+          
+          
+               </div>
     
-</div>
-
-
+            </div>
+            
+        </div>
     
-</section>
+        
+    
+        </div>
+        
+    </section>
 <section class="banner">
     
     <div class="container">
@@ -183,6 +532,7 @@ CapeComorin Digital Awards is a thrilling experience to showcase these immacble 
   </div>
 </footer>
 </body>
+<script async src="//www.instagram.com/embed.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
